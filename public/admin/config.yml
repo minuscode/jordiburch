@@ -1,7 +1,9 @@
 backend:
-  name: test-repo
+  name: github
+  branch: master
+  repo: minuscode/jordiburch
 
-media_folder: "./public/assets/images/uploads"
+media_folder: "/public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
 publish_mode: editorial_workflow
