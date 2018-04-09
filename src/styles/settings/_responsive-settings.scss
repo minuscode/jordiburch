@@ -1,0 +1,42 @@
+///*------------------------------------*\
+//    #RESPONSIVE SETTINGS
+//\*------------------------------------*/
+
+$breakpoints: (
+    "mob"        "screen and (max-width:  320px)",
+    "xs-mob"     "screen and (max-width:  440px)",
+    "sm-mob"     "screen and (max-width:  540px)",
+    "md-mob"     "screen and (max-width:  640px)",
+    "md-mob-1"   "screen and (max-width:  540px)",
+    "tab"        "screen and (max-width:  768px)",
+    "desk"       "screen and (max-width:  1024px)",
+    "desk-mid"   "screen and (max-width:  1280px)",
+    "desk-up"    "screen and (min-width:  1025px)"
+);
+
+@mixin media-query($mq) {
+
+    $breakpoint-found: false;
+
+    @each $breakpoint in $breakpoints {
+
+        $alias:     nth($breakpoint, 1);
+        $condition: nth($breakpoint, 2);
+
+        @if $mq == $alias and $condition {
+
+            $breakpoint-found: true;
+
+            @media #{$condition} {
+                @content;
+            }
+
+        }
+
+    }
+
+    @if $breakpoint-found == false{
+        @warn "Oops! Breakpoint ‘#{$mq}’ does not exist."
+    }
+
+}
