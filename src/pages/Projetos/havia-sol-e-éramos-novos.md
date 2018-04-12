@@ -1,4 +1,6 @@
 ---
+path: "/projetos/havia-sol-e-eramos-novos"
+date: "2018-04-12"
 templateKey: project
 title: Havia Sol e Éramos Novos
 ---
