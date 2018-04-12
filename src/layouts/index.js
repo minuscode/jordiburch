@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import "../styles/style.scss"
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="container">
     <Helmet
       title="Jordi Burch"
       meta={[
