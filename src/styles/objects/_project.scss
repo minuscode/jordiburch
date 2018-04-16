@@ -1,9 +1,27 @@
-.project-container {  
+.project-container {
+  height: 100%;
+
   .post {
     display: flex;
+    height: 100%;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+
+    h1 {
+      padding: 50px 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+      font-weight: $bold;
+    }
+
+    p {
+      padding: 5px 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: $light;
+      color: rgba($color: #000000, $alpha: 0.7);
+    }
+
   }
 
 }
