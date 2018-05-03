@@ -18,7 +18,7 @@ const Textos = ({
 export default Textos;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexQueryTextos {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

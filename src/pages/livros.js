@@ -18,7 +18,7 @@ const Livros = ({
 export default Livros;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexQueryLivros {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

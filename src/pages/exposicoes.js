@@ -18,7 +18,7 @@ const Exposicoes = ({
 export default Exposicoes;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexQueryExp {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

@@ -18,7 +18,7 @@ const Projetos = ({
 export default Projetos;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexQueryProjetos {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
