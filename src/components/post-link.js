@@ -2,9 +2,12 @@ import React from "react";
 import Link from "gatsby-link";
 
 const PostLink = ({ post }) => (
-  <div>
+  <div className="preview-post">
     <Link to={post.frontmatter.path}>
-      {post.frontmatter.title}
+    <div className="container">
+      <h1>{post.frontmatter.title}</h1>
+        <p>{post.excerpt}</p>
+    </div>
     </Link>
   </div>
 );

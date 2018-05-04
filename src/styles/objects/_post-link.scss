@@ -1,0 +1,29 @@
+.preview-post {
+  width: 25%;
+  padding: 10px 20px;
+  border: solid 1px $black;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h1, p {
+      font-family: 'Roboto', sans-serif;
+      color: $black;
+    }
+
+    h1 {
+      padding: 10px 0;
+      font-size: 20px;
+      font-weight: $bold;
+    }
+
+    p {
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+
+  }
+
+}
