@@ -1,5 +1,5 @@
 import React from "react";
-import PostLink from "../components/post-link";
+import TextLink from "../components/text-link";
 import Link from 'gatsby-link';
 
 const Textos = ({
@@ -9,10 +9,9 @@ const Textos = ({
 }) => {
   const Posts = edges
     .filter(edge => edge.node.frontmatter.path.includes("/textos")) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => <TextLink key={edge.node.id} post={edge.node} />);
 
-  { console.log(Posts) };
-  return <div>{Posts}</div>;
+  return <div className="postsDisplay">{Posts}</div>;
 };
 
 export default Textos;
@@ -28,6 +27,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
           }
         }
       }

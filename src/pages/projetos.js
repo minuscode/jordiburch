@@ -11,8 +11,7 @@ const Projetos = ({
     .filter(edge => edge.node.frontmatter.path.includes("/projetos")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
-  {console.log(Posts)};
-  return <div>{Posts}</div>;
+  return <div className="postsDisplay">{Posts}</div>;
 };
 
 export default Projetos;

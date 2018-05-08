@@ -1,33 +1,44 @@
-.preview-post {
-  width: 25%;
-  padding: 10px 20px;
-  border: solid 1px $black;
+.postsDisplay {
+  width: 100%;
+  display: flex;
+  //display: grid;
+  //grid-template-columns: repeat(4, 25%);
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  .preview-post {
+    width: 25%;
+    //flex-basis: 25%;
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 20px;
+      border: solid 1px $black;
+  
+  
+      h1, p {
+        //max-width: 25%;
+        font-family: 'Roboto', sans-serif;
+        color: $black;
+      }
+  
+      h1 {
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: $bold;
+      }
+  
+      p {
+        padding-bottom: 10px;
+        font-size: 15px;
+      }
+  
+      img {
+        width: 100%;
+      }
 
-    h1, p {
-      font-family: 'Roboto', sans-serif;
-      color: $black;
     }
-
-    h1 {
-      padding: 10px 0;
-      font-size: 20px;
-      font-weight: $bold;
-    }
-
-    p {
-      padding-bottom: 10px;
-      font-size: 15px;
-    }
-
-    img {
-      width: 100%;
-    }
-
+  
   }
-
+  
 }
