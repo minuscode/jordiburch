@@ -8,7 +8,7 @@ const Exposicoes = ({
   },
 }) => {
   const Posts = edges
-    .filter(edge => edge.node.frontmatter.path.includes("/exposicoes")) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.path.includes("/exhibitions")) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   { console.log(Posts) };
