@@ -1,6 +1,7 @@
 .postsDisplay {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 
   .preview-post {
     width: 25%;
