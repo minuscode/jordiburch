@@ -9,6 +9,7 @@ export default function Template({
     <div className="project-container">
       <div className="post">
         <h1>{frontmatter.title}</h1>
+        <img src={frontmatter.image} alt="" />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
