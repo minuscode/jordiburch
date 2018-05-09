@@ -6,59 +6,57 @@ backend:
 media_folder: "/public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-collections:
-  - name: projects
-    label: Projects
-    label_singular: Project
-    folder: src/pages/Projetos
+collections:  
+  - name: preview-group
+    label: Preview Groups
+    label_singular: Preview Group
+    folder: src/pages/PreviewGroup
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "project"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "previewGroupTemplate"}
       - { name: title, label: Title }
+      - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
+      - { name: image, label: Cover Image, widget: image}
       - { name: "body", label: "Body", widget: "markdown", required: false}
-      - { name: "path", label: "Path Name", default: "/projetos/" }
 
-  - name: texts
-    label: Texts
-    label_singular: Text
-    folder: src/pages/Textos
+  - name: text-posts
+    label: Text Posts
+    label_singular: Text Post
+    folder: src/pages/TextPost
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "text"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "textPostTemplate"}
       - { name: title, label: Title }
+      - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/textos/" }
 
-  - name: books
-    label: Books
-    label_singular: Book
-    folder: src/pages/Livros
+  - name: image-posts
+    label: Image Posts
+    label_singular: Image Post
+    folder: src/pages/ImagePost
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "book"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagePostTemplate"}
       - { name: title, label: Title }
+      - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
-      - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/livros/" }
-
-  - name: exhibitions
-    label: Exhibitions
-    label_singular: Exhibition
-    folder: src/pages/Exposicoes
+      - { name: image, label: Image, widget: image }
+    
+  - name: image-text-posts
+    label: Image and Text Posts
+    label_singular: Image and Text Post
+    folder: src/pages/ImageTextPost 
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "exhibition"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagetextPostTemplate"}
       - { name: title, label: Title }
+      - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
+      - { name: image, label: Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/livros/" }
