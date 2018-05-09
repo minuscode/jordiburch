@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master
+  branch: cms-organization
   repo: minuscode/jordiburch
 
 media_folder: "/public/assets/images/uploads"
