@@ -21,6 +21,8 @@ const TemplateWrapper = ({ children }) => (
         maxWidth: 960,
         paddingTop: 0,
       }}
+
+      className="wrapper"
     >
       {children()}
     </div>
