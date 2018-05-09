@@ -1,12 +1,10 @@
 .postsDisplay {
   width: 100%;
   display: flex;
-  //display: grid;
-  //grid-template-columns: repeat(4, 25%);
 
   .preview-post {
     width: 25%;
-    //flex-basis: 25%;
+    margin: 20px 10px 10px;
     
     .container {
       display: flex;
@@ -17,7 +15,6 @@
   
   
       h1, p {
-        //max-width: 25%;
         font-family: 'Roboto', sans-serif;
         color: $black;
       }
