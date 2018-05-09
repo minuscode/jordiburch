@@ -4,6 +4,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
   const project = path.resolve(`src/templates/project.js`);
+  const previewGroupTemplate = path.resolve(`src/templates/previewGroupTemplate.js`);
+  const imagePostTemplate = path.resolve(`src/templates/imagePostTemplate.js`);
+  const textPostTemplate = path.resolve(`src/templates/textPostTemplate.js`);
+  const imagetextPostTemplate = path.resolve(`src/templates/imagetextPostTemplate.js`);
 
   return graphql(`
     {
@@ -15,6 +19,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           node {
             frontmatter {
               path
+              templateKey
             }
           }
         }
@@ -28,9 +33,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
           path: node.frontmatter.path,
-          component: project,
+          component: path.resolve(`src/templates/${String(node.frontmatter.templateKey)}.js`),
           context: {}, // additional data can be passed via context
         });
       });
+
     });
 };
