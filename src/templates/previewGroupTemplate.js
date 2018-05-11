@@ -2,33 +2,34 @@ import React from "react";
 import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
 
-export default function PreviewPostTemplate({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
-  return (
-    <div className="project-container">
-      <div className="post">
-        <h1>{frontmatter.title}</h1>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
-    </div>
-  );
-}
+const Projetos = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const Posts = edges
+    .filter(edge => edge.node.frontmatter.path.includes("/")) // You can filter your posts based on some criteria
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+
+  return <div className="postsDisplay">{Posts}</div>;
+};
+
+export default Projetos;
 
 export const pageQuery = graphql`
-  query previewPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-        image
+  query previewGroupTemplate {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+            image
+          }
+        }
       }
     }
   }
