@@ -3,7 +3,7 @@ templateKey: project
 title: Havia Sol e Éramos Novos
 date: '2018-04-12'
 image: /assets/images/uploads/09.jpg
-path: /projetos/havia-sol-e-eramos-novos
+path: /projects/havia-sol-e-eramos-novos
 ---
 Quando vim morar para o Brasil, em 2008, comecei a perceber o meu país como um espectro: com a distância, Portugal passou a ser uma ausência.
 
