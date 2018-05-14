@@ -1,0 +1,25 @@
+.post-image-container {
+  height: 100%;
+
+  .post {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      padding: 50px 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+      font-weight: $bold;
+    }
+
+    img {
+      max-width: 70%;
+      padding: 20px 0;
+    }
+
+  }
+
+}
