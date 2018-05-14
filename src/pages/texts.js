@@ -1,5 +1,5 @@
 import React from "react";
-import TextLink from "../components/text-link";
+import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
 
 const Textos = ({
@@ -9,7 +9,7 @@ const Textos = ({
 }) => {
   const Posts = edges
     .filter(edge => edge.node.frontmatter.path.includes("/texts") && edge.node.frontmatter.path.split('/').length <= 3) // You can filter your posts based on some criteria
-    .map(edge => <TextLink key={edge.node.id} post={edge.node} />);
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   return <div className="postsDisplay">{Posts}</div>;
 };
