@@ -7,8 +7,7 @@ const Projetos = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const ownPath = edges[0].node.frontmatter.path;
-  console.log(ownPath);
+  const ownPath = document.location.pathname;
   const Posts = edges
     .filter(edge => edge.node.frontmatter.path.includes(ownPath) && edge.node.frontmatter.path !== ownPath) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
