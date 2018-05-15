@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "gatsby": "^1.9.241",
     "gatsby-cli": "^1.1.51",
     "gatsby-link": "^1.6.39",
@@ -12,9 +13,12 @@
     "gatsby-plugin-sass": "latest",
     "gatsby-source-filesystem": "^1.5.29",
     "gatsby-transformer-remark": "^1.7.39",
+    "history": "^4.7.2",
+    "location": "^0.0.1",
     "netlify-cms": "^1.4.0",
     "node-sass": "^4.8.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-router": "^4.2.0"
   },
   "keywords": [
     "gatsby"

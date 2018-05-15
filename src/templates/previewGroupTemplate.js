@@ -1,13 +1,18 @@
-import React from "react";
+import React, {Component} from "react";
 import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
+
 
 const Projetos = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
-  const ownPath = document.location.pathname;
+  let ownPath = '/';
+  if (typeof window !== `undefined`) {
+    ownPath = location.pathname;
+  }
+
   const Posts = edges
     .filter(edge => edge.node.frontmatter.path.includes(ownPath) && edge.node.frontmatter.path !== ownPath) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
