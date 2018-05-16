@@ -1,5 +1,5 @@
 ---
-templateKey: imagetextPostTemplate
+templateKey: cv
 title: CV
 path: /cv
 date: '2018-05-16'
