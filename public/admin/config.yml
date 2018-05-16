@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   branch: cms-organization
   repo: minuscode/jordiburch
 

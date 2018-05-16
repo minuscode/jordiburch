@@ -8,6 +8,7 @@ const Projetos = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  
   let ownPath = '/';
   if (typeof window !== `undefined`) {
     ownPath = location.pathname;
