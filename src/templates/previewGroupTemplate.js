@@ -3,7 +3,7 @@ import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
 
 
-const Projetos = ({
+const previewGroup = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -20,7 +20,7 @@ const Projetos = ({
   return <div className="postsDisplay">{Posts}</div>;
 };
 
-export default Projetos;
+export default previewGroup;
 
 export const pageQuery = graphql`
   query previewGroupTemplate {
