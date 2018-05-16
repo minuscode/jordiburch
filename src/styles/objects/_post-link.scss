@@ -8,6 +8,7 @@
     width: 30%;
     max-height: 30%;
     margin: 20px 10px 10px;
+    overflow: hidden;
     
     .container {
       display: flex;
@@ -46,6 +47,14 @@
         width: 100%;
       }
 
+    }
+
+    @include media-query(tab) {
+      width: 45%;
+    }
+
+    @include media-query(sm-mob) {
+      width: 80%;
     }
   
   }
