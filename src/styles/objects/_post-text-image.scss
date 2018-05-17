@@ -4,6 +4,7 @@
   .post {
     display: flex;
     height: 100%;
+    padding-top: 83px;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
@@ -30,12 +31,21 @@
     }
 
     ul {
+      margin-left: 40px;
       list-style-type: circle;
+    }
+
+    li {
+      padding-left: 10px;
     }
 
     img {
       max-width: 50%;
       padding: 20px 0;
+    }
+
+    .cv-post-content {
+      padding-bottom: 20px;
     }
 
   }

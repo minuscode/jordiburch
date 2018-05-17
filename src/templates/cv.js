@@ -9,7 +9,7 @@ export default function Template({
     <div className="project-container">
       <div className="post">
         <div
-          className="blog-post-content"
+          className="cv-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
