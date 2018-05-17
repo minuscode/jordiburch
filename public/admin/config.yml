@@ -12,6 +12,8 @@ collections:
     label_singular: Preview Group
     folder: src/pages/PreviewGroup
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "previewGroupTemplate"}
@@ -26,6 +28,8 @@ collections:
     label_singular: Text Post
     folder: src/pages/TextPost
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "textPostTemplate"}
@@ -39,6 +43,8 @@ collections:
     label_singular: Image Post
     folder: src/pages/ImagePost
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagePostTemplate"}
@@ -52,6 +58,8 @@ collections:
     label_singular: Image and Text Post
     folder: src/pages/ImageTextPost 
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagetextPostTemplate"}
@@ -66,6 +74,8 @@ collections:
     label_singular: Curriculum Vitae
     folder: src/pages/cv
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "cv"}
