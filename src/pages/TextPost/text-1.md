@@ -1,7 +1,7 @@
 ---
 templateKey: textPostTemplate
 title: Text 1
-path: texts/text-1
+path: /texts/text-ones
 date: '2018-05-17'
 ---
 Havia sol e éramos novos
