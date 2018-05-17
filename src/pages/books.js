@@ -12,7 +12,7 @@ const Livros = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   { console.log(Posts) };
-  return <div>{Posts}</div>;
+  return <div className="postsDisplay">{Posts}</div>;
 };
 
 export default Livros;
@@ -28,6 +28,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
           }
         }
       }
