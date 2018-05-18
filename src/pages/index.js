@@ -3,6 +3,7 @@ import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
 import { EDEADLK } from "constants";
 
+
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
