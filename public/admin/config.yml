@@ -22,7 +22,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - { name: image, label: Cover Image, widget: image}
       - { name: "body", label: "Body", widget: "markdown", required: false}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"] }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
   - name: text-posts
     label: Text Posts
@@ -38,7 +38,7 @@ collections:
       - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"] }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
   - name: image-posts
     label: Image Posts
@@ -55,7 +55,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - { name: image, label: Image, widget: image }
       - {label: "Description", name: "description", widget: "markdown", required: false}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"] }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
     
   - name: image-text-posts
     label: Image and Text Posts
@@ -72,7 +72,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - { name: image, label: Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"] }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
   - name: cv
     label: Curriculum Vitae
