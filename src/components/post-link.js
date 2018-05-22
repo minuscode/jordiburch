@@ -35,6 +35,7 @@ const PostLink = ({ post }) => (
       </a>
       <a href='#_' className='lightbox' id={post.frontmatter.path}>
         <img src={post.frontmatter.image} />
+        {post.frontmatter.description !== null && <div className="descriptionBox"><p>{post.frontmatter.description}</p></div>}
       </a>
     </div>}
   </div>

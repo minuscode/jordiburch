@@ -57,10 +57,7 @@
   }
 
   .lightbox {
-    /** Default lightbox to hidden */
     display: none;
-
-    /** Position and style */
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -69,17 +66,31 @@
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.8);
-  }
 
-  .lightbox img {
-    max-width: 90%;
-    max-height: 80%;
-    margin-top: 2%;
-  }
+    img {
+      max-width: 90%;
+      max-height: 80%;
+      margin-top: 2%;
+    }
 
-  .lightbox:target {
-    display: block;
-    outline: none;
+    &:target {
+      display: block;
+      outline: none;
+    }
+
+    .descriptionBox {
+      padding-top: 30px;
+      margin: 0 auto;
+      text-align: center;
+      
+      p {
+        padding: 0 20%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: $white;
+      }
+    }
+
   }
 
 }
