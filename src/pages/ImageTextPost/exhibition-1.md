@@ -4,6 +4,7 @@ title: Exhibition 1
 path: /exhibitions/exhibition-one
 date: '2018-05-17'
 image: /assets/images/uploads/07.jpg
+featured: 'Yes'
 ---
 Quando vim morar para o Brasil, em 2008, comecei a perceber o meu país como um espectro: com a distância, Portugal passou a ser uma ausência.
 
