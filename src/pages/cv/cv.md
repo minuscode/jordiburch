@@ -94,8 +94,7 @@ date: '2018-05-16'
 2014 | Esculturas no Palácio, Published on Nov 17, PT.
 
 
-
-**Prizes **
+# Prizes
 
 2017 | Revelation prize, D. Fernando, at Museu das Artes, Sintra, PT. 
 
