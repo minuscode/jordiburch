@@ -78,12 +78,11 @@ date: '2018-05-16'
 
 ## Residencies
 
-* 2017 | Centro de Estudos de Arte Contemporânea, Vila Nova da Barquinha, PT. 
-* 2017 | Budapest Galéria, Budapest, HU.
-* 2016 | RésVés, Mértola, PT.
-* 2015 | Movimento das Pedras, Associação Luzlinar, Feital, PT. 
-* 2015 | RésVés, Praia da Vitória, Azores, PT.
-
+2017 | Centro de Estudos de Arte Contemporânea, Vila Nova da Barquinha, PT. 
+2017 | Budapest Galéria, Budapest, HU.
+2016 | RésVés, Mértola, PT.
+2015 | Movimento das Pedras, Associação Luzlinar, Feital, PT. 
+2015 | RésVés, Praia da Vitória, Azores, PT.
 
 
 # Publications
