@@ -11,7 +11,7 @@ const IndexPage = ({
 }) => {
   console.log(edges);
   const Posts = edges
-    .filter(edge => edge.node.frontmatter.templateKey !== 'previewGroupTemplate' && edge.node.frontmatter.path !== '/cv') // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.featured === 'Yes' && edge.node.frontmatter.path !== '/cv') // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
     
   return <div className="postsDisplay">{Posts}</div>;
@@ -32,6 +32,7 @@ export const pageQuery = graphql`
             title
             image
             templateKey
+            featured
           }
         }
       }
