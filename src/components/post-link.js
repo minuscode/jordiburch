@@ -5,17 +5,26 @@ const PostLink = ({ post }) => (
   <div className="preview-post">
     
     {post.frontmatter.templateKey !== 'imagePostTemplate' && <Link to={post.frontmatter.path}>
-      <div className="container">
-        {post.frontmatter.image !== null &&
+      {post.frontmatter.image !== null &&
+        <div className="container">
           <div className="image">
             <img src={post.frontmatter.image} alt="" />
           </div>
-        }
-        {post.frontmatter.image === null && <div className="text">
+
+        <div className="text imagePostBox">
           <h1>{post.frontmatter.title}</h1>
-          <p>{post.excerpt}</p>
-        </div>}
-      </div>
+          {post.excerpt !== null && <div className="descriptionBox"><p>{post.excerpt}</p></div>}
+        </div>
+        </div>
+      }
+      {post.frontmatter.image === null && 
+        <div className="container">
+          <div className="text">
+            <h1>{post.frontmatter.title}</h1>
+            <p>{post.excerpt}</p>
+          </div>
+        </div>
+      }
     </Link> }
 
     {post.frontmatter.templateKey === 'imagePostTemplate' && 
