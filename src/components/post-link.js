@@ -11,10 +11,10 @@ const PostLink = ({ post }) => (
             <img src={post.frontmatter.image} alt="" />
           </div>
         }
-        <div className="text">
+        {post.frontmatter.image === null && <div className="text">
           <h1>{post.frontmatter.title}</h1>
-          {post.frontmatter.image === null && <p>{post.excerpt}</p>}
-        </div>
+          <p>{post.excerpt}</p>
+        </div>}
       </div>
     </Link> }
 
@@ -27,9 +27,9 @@ const PostLink = ({ post }) => (
               <img src={post.frontmatter.image} alt="" />
             </div>
           }
-          <div className="text">
+          <div className="text imagePostBox">
             <h1>{post.frontmatter.title}</h1>
-            {post.frontmatter.image === null && <p>{post.excerpt}</p>}
+            {post.frontmatter.description !== null && <div className="descriptionBox"><p>{post.frontmatter.description}</p></div>}
           </div>
         </div>
       </a>
