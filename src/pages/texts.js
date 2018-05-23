@@ -11,7 +11,12 @@ const Textos = ({
     .filter(edge => edge.node.frontmatter.path.includes("/texts") && edge.node.frontmatter.path.split('/').length <= 3) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
-  return <div className="postsDisplay">{Posts}</div>;
+  return (
+    <div>
+      <h1 className="pageTitle">Texts</h1>
+      <div className="postsDisplay">{Posts}</div>
+    </div>
+  );
 };
 
 export default Textos;

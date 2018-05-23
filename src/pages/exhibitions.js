@@ -12,7 +12,12 @@ const Exposicoes = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   { console.log(Posts) };
-  return <div className="postsDisplay">{Posts}</div>;
+  return (
+  <div>
+    <h1 className="pageTitle">Exhibitions</h1>
+    <div className="postsDisplay">{Posts}</div>
+  </div>
+  );
 };
 
 export default Exposicoes;
