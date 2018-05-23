@@ -17,6 +17,16 @@
       font-family: 'Roboto', sans-serif;
       font-weight: $regular;
       color: $black;
+      transition: 0.2s;
+
+      &:active {
+        opacity: 0.5;
+      }
+
+      &:focus {
+        opacity: 0.5;
+      }
+      
     }
 
     h1 {
