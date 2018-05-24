@@ -16,14 +16,11 @@ const Header = () => (
   </div>
 )
 
-
-let menuItem = '';
-let homeBtn = '';
 if (typeof window !== `undefined`) {
   document.onreadystatechange = () => {
     if (document.readyState === 'complete') {
-      menuItem = Array.from(document.querySelectorAll('.menu-item'));
-      homeBtn = document.querySelector('.home-btn');
+      let menuItem = Array.from(document.querySelectorAll('.menu-item'));
+      let homeBtn = document.querySelector('.home-btn');
       homeBtn.addEventListener('click', () => {
         for (let i = 0; i < menuItem.length; i++) {
           menuItem[i].classList.remove('active');
