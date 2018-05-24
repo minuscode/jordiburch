@@ -6,14 +6,39 @@ const Header = () => (
     <div className="container">
       <h1><Link to="/" className="home-btn">Jordi Burch</Link></h1>
       <div className="menu">
-        <p><Link to="/projects">Projects</Link></p>
-        <p><Link to="/books">Books</Link></p>
-        <p><Link to="/exhibitions">Exhibitions</Link></p>
-        <p><Link to="/texts">Texts</Link></p>
-        <p><Link to="/cv">CV</Link></p>
+        <p><Link to="/projects" className="menu-item">Projects</Link></p>
+        <p><Link to="/books" className="menu-item">Books</Link></p>
+        <p><Link to="/exhibitions" className="menu-item">Exhibitions</Link></p>
+        <p><Link to="/texts" className="menu-item">Texts</Link></p>
+        <p><Link to="/cv" className="menu-item">CV</Link></p>
       </div>
     </div>
   </div>
 )
+
+
+let menuItem = '';
+let homeBtn = '';
+if (typeof window !== `undefined`) {
+  document.onreadystatechange = () => {
+    if (document.readyState === 'complete') {
+      menuItem = Array.from(document.querySelectorAll('.menu-item'));
+      homeBtn = document.querySelector('.home-btn');
+      homeBtn.addEventListener('click', () => {
+        for (let i = 0; i < menuItem.length; i++) {
+          menuItem[i].classList.remove('active');
+        }
+      });
+      for (let i = 0; i < menuItem.length; i++) {
+        menuItem[i].addEventListener('click', () => { 
+          for (let index = 0; index < menuItem.length; index++) {
+            menuItem[index].classList.remove('active');
+          }
+          menuItem[i].classList.add('active');
+        });
+      }
+    }
+  };
+}
 
 export default Header
