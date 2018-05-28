@@ -3,6 +3,7 @@ templateKey: textPostTemplate
 title: Text 1
 path: /texts/text-ones
 date: '2018-05-17'
+image: /assets/images/uploads/014.jpg
 featured: 'Yes'
 ---
 Havia sol e éramos novos
