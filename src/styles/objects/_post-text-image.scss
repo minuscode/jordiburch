@@ -1,7 +1,15 @@
 .project-container {
   height: 100%;
 
-  .post {
+  .pageTitle {
+    padding-top: 95px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: $regular;
+    color: rgba($color: $black, $alpha: 0.5);
+  }
+
+  .blog-post-content, .cv-post-content {
     display: flex;
     height: 100%;
     padding-top: 83px;
@@ -44,10 +52,11 @@
       padding: 20px 0;
     }
 
-    .cv-post-content {
-      padding-bottom: 20px;
-    }
-
+  }
+  
+  .cv-post-content {
+    padding-bottom: 20px;
+    align-items: flex-start;
   }
 
 }

@@ -8,8 +8,7 @@ export default function Template({
   return (
     <div className="project-container">
       <div className="post">
-        <h1>{frontmatter.title}</h1>
-        <img src={frontmatter.image} alt="" />
+        <h1 className="pageTitle">{frontmatter.title}</h1>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
