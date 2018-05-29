@@ -6,74 +6,76 @@ backend:
 media_folder: "/public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-collections:  
-  - name: preview-group
-    label: Preview Groups
-    label_singular: Preview Group
-    folder: src/pages/PreviewGroup
-    create: true
-    editor:
-      preview: false
-    slug: "{{slug}}"
-    fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "previewGroupTemplate"}
-      - { name: title, label: Title }
-      - { name: "path", label: "Path Name" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Cover Image, widget: image}
-      - { name: "body", label: "Body", widget: "markdown", required: false}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+collections: 
+  - name: projects
+      label: Projects
+      label_singular: project
+      folder: src/pages/projects
+      create: true
+      editor:
+        preview: false
+      slug: "{{slug}}"
+      fields:
+        - { name: "templateKey", label: "Template Key", widget: "hidden", default: "projects"}
+        - { name: title, label: Title }
+        - { name: "path", label: "Path Name", default: "/projects/" }
+        - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD"}
+        - { name: image, label: Cover Image, widget: image }
+        - { name: "body", label: "Body", widget: "markdown"}
+        - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
-  - name: text-posts
-    label: Text Posts
-    label_singular: Text Post
-    folder: src/pages/TextPost
+  - name: books
+    label: Books
+    label_singular: Book
+    folder: src/pages/books
     create: true
     editor:
       preview: false
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "textPostTemplate"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "books"}
       - { name: title, label: Title }
-      - { name: "path", label: "Path Name" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Cover Image, widget: image}
-      - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
-
-  - name: image-posts
-    label: Image Posts
-    label_singular: Image Post
-    folder: src/pages/ImagePost
-    create: true
-    editor:
-      preview: false
-    slug: "{{slug}}"
-    fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagePostTemplate"}
-      - { name: title, label: Title }
-      - { name: "path", label: "Path Name" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image }
-      - {label: "Description", name: "description", widget: "markdown", required: false}
-      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
-    
-  - name: image-text-posts
-    label: Image and Text Posts
-    label_singular: Image and Text Post
-    folder: src/pages/ImageTextPost 
-    create: true
-    editor:
-      preview: false
-    slug: "{{slug}}"
-    fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "imagetextPostTemplate"}
-      - { name: title, label: Title }
-      - { name: "path", label: "Path Name" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - { name: "path", label: "Path Name", default: "/books/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD"}
       - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
       - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+
+  - name: exhibitions
+    label: Exhibitions
+    label_singular: Exhibition
+    folder: src/pages/exhibitions
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "exhibitions"}
+      - { name: title, label: Title }
+      - { name: "path", label: "Path Name", default: "/exhibitions/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD"}
+      - { name: image, label: Cover Image, widget: image }
+      - { name: "body", label: "Body", widget: "markdown"}
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+  
+  - name: texts
+    label: Texts
+    label_singular: Text
+    folder: src/pages/texts
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "texts"}
+      - { name: title, label: Title }
+      - { name: "path", label: "Path Name", default: "/texts/" }
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - { name: image, label: Cover Image, widget: image}
+      - { name: "body", label: "Body", widget: "markdown"}
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+    
+  
 
   - name: cv
     label: Curriculum Vitae
