@@ -14,7 +14,7 @@ function Template({
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
     console.log(imgTags);
-    if(imgTags.length !== 0) {
+    if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
         ((imgTags[i].alt === 'null') && (imgTags[i].alt = 'No description.'));
@@ -59,7 +59,7 @@ function Template({
 export default Template;
 
 export const pageQuery = graphql`
-  query imagetextPostByPath($path: String!) {
+  query ExihibitionPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
