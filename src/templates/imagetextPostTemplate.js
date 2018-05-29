@@ -17,7 +17,7 @@ function Template({
     if(imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
-        ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
+        ((imgTags[i].alt === 'null') && (imgTags[i].alt = 'No description.'));
         divContainer.innerHTML = divContainer.innerHTML + `
           <div class="markdownImage">
             <a href="${'#' + imgTags[i].src}" class='small-img'>
@@ -33,6 +33,7 @@ function Template({
             </a>
             <a href='#_' class='lightbox' id="${imgTags[i].src}">
               <img src="${imgTags[i].src}" />
+              <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
             </a>
           </div>
         `;

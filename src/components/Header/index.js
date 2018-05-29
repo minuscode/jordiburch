@@ -12,6 +12,11 @@ const Header = () => (
         <p><Link to="/texts" className="menu-item">Texts</Link></p>
         <p><Link to="/cv" className="menu-item">CV</Link></p>
       </div>
+
+      <div className="footer">
+        <p>Jordi Burch</p>
+        <p>Developed by: <a href="http://minuscode.com/">minuscode</a></p>
+      </div>
     </div>
   </div>
 )
