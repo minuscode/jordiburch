@@ -17,10 +17,13 @@ body, #___gatsby {
 .container {
     display: flex;
     height: 100%;
+    overflow: hidden;
 
 
     .wrapper {
         width: 100%;
+        padding-right: 30px;
+        overflow: scroll;
     }
 
 }
