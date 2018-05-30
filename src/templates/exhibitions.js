@@ -59,7 +59,7 @@ function Template({
 export default Template;
 
 export const pageQuery = graphql`
-  query ExihibitionPostByPath($path: String!) {
+  query ExhibitionPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

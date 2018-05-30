@@ -5,7 +5,7 @@ function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
-
+  console.log(data.markdownRemark);
   if (typeof window !== `undefined`) {
     let divRandom = document.createElement('div');
     let divContainer = document.createElement('div');
@@ -59,7 +59,7 @@ function Template({
 export default Template;
 
 export const pageQuery = graphql`
-  query PorjectPostByPath($path: String!) {
+  query ProjectPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

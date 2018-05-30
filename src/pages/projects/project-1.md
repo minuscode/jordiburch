@@ -1,9 +1,10 @@
 ---
 templateKey: projects
 title: Project 1
-path: /projects/project-1
+path: /projects/project-one
+date: '2018-05-16'
 image: /assets/images/uploads/02.jpg
-featured: 'No'
+featured: 'Yes'
 ---
 ![This is a nice pic.](/assets/images/uploads/02.jpg)
 

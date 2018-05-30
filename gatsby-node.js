@@ -31,6 +31,5 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           context: {}, // additional data can be passed via context
         });
       });
-
     });
 };

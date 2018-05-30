@@ -1,7 +1,6 @@
 import React from "react";
 import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
-import { EDEADLK } from "constants";
 
 
 const IndexPage = ({
@@ -33,7 +32,6 @@ export const pageQuery = graphql`
             image
             templateKey
             featured
-            description
           }
         }
       }
