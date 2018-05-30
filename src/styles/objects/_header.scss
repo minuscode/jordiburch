@@ -55,26 +55,5 @@
     }
 
   }
-
-  .footer {
-    padding: 10px 1.5vw;
-
-    p, a {
-      font-size: 12px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: $regular;
-      letter-spacing: 1.2px;
-      color: rgba($color: $black, $alpha: 0.5);
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    p {
-      padding: 3px 0;
-    }
-    
-  }
-
+  
 }

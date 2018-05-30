@@ -26,6 +26,7 @@ const TemplateWrapper = ({ children }) => (
       className="wrapper"
     >
       {children()}
+    <p className="footer">2018</p>
     </div>
   </div>
 )
