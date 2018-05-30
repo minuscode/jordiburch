@@ -5,7 +5,7 @@ function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
-  console.log(data.markdownRemark);
+
   if (typeof window !== `undefined`) {
     let divRandom = document.createElement('div');
     let divContainer = document.createElement('div');
@@ -13,7 +13,6 @@ function Template({
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
-    console.log(imgTags);
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
@@ -39,8 +38,12 @@ function Template({
         `;
       }
       data.markdownRemark.html = divRandom.innerHTML;
+      var storeInfo = divRandom.innerHTML;
+      console.log('storeInfo');
     }
     divRandom.remove();
+  } else if (typeof window === `undefined`) {
+    console.log('test123');
   }
 
   return (
