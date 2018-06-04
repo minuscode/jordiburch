@@ -5,6 +5,7 @@ function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
+  let storeHTML = '';
 
   if (typeof window !== `undefined`) {
     let divRandom = document.createElement('div');
@@ -13,6 +14,7 @@ function Template({
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
+    console.log(imgTags.length);
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
@@ -38,13 +40,13 @@ function Template({
         `;
       }
       data.markdownRemark.html = divRandom.innerHTML;
-      var storeInfo = divRandom.innerHTML;
-      console.log('storeInfo');
     }
+
+    storeHTML = data.markdownRemark.html;
     divRandom.remove();
-  } else if (typeof window === `undefined`) {
-    console.log('test123');
   }
+
+  storeHTML = data.markdownRemark.html;
 
   return (
     <div className="project-container">
@@ -52,7 +54,7 @@ function Template({
         <h1 className="pageTitle">{frontmatter.title}</h1>
         <div
           className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+          dangerouslySetInnerHTML={{ __html: storeHTML }}
         />
       </div>
     </div>
