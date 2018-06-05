@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: cms-organization
+  branch: master
   repo: minuscode/jordiburch
 
 media_folder: "/public/assets/images/uploads"
