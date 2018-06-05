@@ -8,9 +8,8 @@ export default function Template({
   return (
     <div className="project-container">
       <div className="post">
-        <h1>{frontmatter.title}</h1>
         <div
-          className="blog-post-content"
+          className="cv-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
@@ -19,7 +18,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query TextPostByPath($path: String!) {
+  query CVPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

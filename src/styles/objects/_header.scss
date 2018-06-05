@@ -1,9 +1,10 @@
 .header {
   display: flex;
-  flex-basis: 15%;
+  flex-basis: 11%;
   height: 100%;
   left: 0;
   top: 0;
+  background-color: $soft-white;
 
   .container {
     display: flex;
@@ -12,10 +13,25 @@
     text-align: left;
 
     a {
-      font-size: 20px;
+      font-size: 18px;
       font-family: 'Roboto', sans-serif;
       font-weight: $regular;
+      letter-spacing: 1.2px;
       color: $black;
+      transition: 0.2s;
+
+      &:active {
+        opacity: 0.5;
+      }
+
+      &:focus {
+        opacity: 0.5;
+      }
+      
+    }
+
+    .active {
+      opacity: 0.5;
     }
 
     h1 {
@@ -39,5 +55,5 @@
     }
 
   }
-
+  
 }

@@ -10,21 +10,23 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Jordi Burch"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: '' },
+        { name: 'keywords', content: '' },
       ]}
     />
+    
     <Header />
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 1550,
         paddingTop: 0,
       }}
 
       className="wrapper"
     >
       {children()}
+    <p className="footer">2018</p>
     </div>
   </div>
 )

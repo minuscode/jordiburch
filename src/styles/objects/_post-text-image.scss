@@ -1,30 +1,72 @@
-.pageTitle {
-  padding-top: 45px;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: $regular;
-  color: rgba($color: $black, $alpha: 0.5);
-}
+.project-container {
 
-.postsDisplay {
-  width: 100%;
-  padding-top: 15px;
-  column-count: 2;
-  column-gap: 10px;
+  .pageTitle {
+    padding-top: 45px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: $regular;
+    color: rgba($color: $black, $alpha: 0.5);
+  }
 
-  .preview-post {
-    display: inline-block;
-    width: 100%;
-    max-height: 100%;
-    padding: 10px 5px 5px;
-    overflow: hidden;
+  .blog-post-content, .cv-post-content {
+    display: flex;
+    height: 100%;
+    padding-top: 15px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1, h2 {
+      padding: 20px 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: $bold;
+    }
     
+    h1 {
+      font-size: 25px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+    
+    p, li {
+      padding: 5px 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: $light;
+      color: rgba($color: #000000, $alpha: 0.7);
+    }
+
+    ul {
+      margin-left: 40px;
+      list-style-type: circle;
+    }
+
+    li {
+      padding-left: 10px;
+    }
+
+    img {
+      max-width: 50%;
+      padding: 20px 0;
+    }
+
+    .markdownContainer {
+      column-count: 2;
+      column-gap: 10px;
+
+      .markdownImage {
+        display: inline-block;
+        padding: 10px 0 5px;
+      }
+
+    }
+
     .container {
       display: flex;
       position: relative;
       flex-direction: column;
       text-align: center;
-      border: solid 1px $light-gray;
 
       .text {
         padding: 10px 15px;
@@ -52,8 +94,14 @@
       }
 
       .image {
-        border-bottom: solid 1px $light-gray;
         overflow: hidden;
+        max-height: 100%;
+        
+        img {
+          padding: 0;
+          max-width: 100%;
+        }
+
       }
   
       
@@ -80,13 +128,15 @@
     }
 
   }
-  
-  @include media-query(tab) {
-      column-count: 1;
-      column-gap: 0;
+
+  .cv-post-content {
+    padding-top: 80px;
+    padding-bottom: 20px;
   }
 
-  .lightbox {
+}
+
+.lightbox {
     display: none;
     position: fixed;
     z-index: 999;
@@ -122,9 +172,3 @@
     }
 
   }
-
-}
-
-.homepageDisplay {
-  padding-top: 85px;
-}

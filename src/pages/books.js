@@ -8,11 +8,16 @@ const Livros = ({
   },
 }) => {
   const Posts = edges
-    .filter(edge => edge.node.frontmatter.path.includes("/livros")) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.path.includes("/books") && edge.node.frontmatter.path.split('/').length <= 3) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   { console.log(Posts) };
-  return <div>{Posts}</div>;
+return (
+  <div>
+    <h1 className="pageTitle">Books</h1>
+    <div className="postsDisplay">{Posts}</div>
+  </div>
+  );
 };
 
 export default Livros;
@@ -28,6 +33,8 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
+            templateKey
           }
         }
       }

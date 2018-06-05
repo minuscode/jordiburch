@@ -1,64 +1,91 @@
 backend:
-  name: github
-  branch: master
+  name: git-gateway
+  branch: cms-organization
   repo: minuscode/jordiburch
 
 media_folder: "/public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-collections:
+collections: 
   - name: projects
     label: Projects
     label_singular: Project
-    folder: src/pages/Projetos
+    folder: src/pages/projects
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "project"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "projects"}
       - { name: title, label: Title }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
-      - { name: "body", label: "Body", widget: "markdown", required: false}
-      - { name: "path", label: "Path Name", default: "/projetos/" }
-
-  - name: texts
-    label: Texts
-    label_singular: Text
-    folder: src/pages/Textos
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "text"}
-      - { name: title, label: Title }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
+      - { name: "path", label: "Path Name", default: "/projects/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
+      - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/textos/" }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
   - name: books
     label: Books
     label_singular: Book
-    folder: src/pages/Livros
+    folder: src/pages/books
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "book"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "books"}
       - { name: title, label: Title }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
+      - { name: "path", label: "Path Name", default: "/books/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
+      - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/livros/" }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
 
   - name: exhibitions
     label: Exhibitions
     label_singular: Exhibition
-    folder: src/pages/Exposicoes
+    folder: src/pages/exhibitions
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "exhibition"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "exhibitions"}
       - { name: title, label: Title }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - { name: image, label: Image, widget: image, required: false }
+      - { name: "path", label: "Path Name", default: "/exhibitions/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
+      - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
-      - { name: "path", label: "Path Name", default: "/livros/" }
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+  
+  - name: texts
+    label: Texts
+    label_singular: Text
+    folder: src/pages/texts
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "texts"}
+      - { name: title, label: Title }
+      - { name: "path", label: "Path Name", default: "/texts/" }
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
+      - { name: image, label: Cover Image, widget: image}
+      - { name: "body", label: "Body", widget: "markdown"}
+      - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
+    
+  - name: cv
+    label: Curriculum Vitae
+    label_singular: Curriculum Vitae
+    folder: src/pages/cv
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "cv"}
+      - { name: title, label: Title }
+      - { name: "path", label: "Path Name" }
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - { name: "body", label: "Body", widget: "markdown"}

@@ -2,23 +2,27 @@ import React from "react";
 import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
 
-const Exposicoes = ({
+const Projetos = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
   const Posts = edges
-    .filter(edge => edge.node.frontmatter.path.includes("/exposicoes")) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.path.includes("/projects") && edge.node.frontmatter.path.split('/').length <= 3) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
-  { console.log(Posts) };
-  return <div>{Posts}</div>;
+  return (
+  <div>
+      <h1 className="pageTitle">Projects</h1>
+    <div className="postsDisplay">{Posts}</div>
+  </div>
+  );
 };
 
-export default Exposicoes;
+export default Projetos;
 
 export const pageQuery = graphql`
-  query IndexQueryExp {
+  query IndexQueryProjetos {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
@@ -28,6 +32,8 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
+            templateKey
           }
         }
       }
