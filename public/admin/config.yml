@@ -53,7 +53,7 @@ collections:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "exhibitions"}
       - { name: title, label: Title }
       - { name: "path", label: "Path Name", default: "/exhibitions/" }
-      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01}
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
       - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
       - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
@@ -70,7 +70,7 @@ collections:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "texts"}
       - { name: title, label: Title }
       - { name: "path", label: "Path Name", default: "/texts/" }
-      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01}
+      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
       - { name: image, label: Cover Image, widget: image}
       - { name: "body", label: "Body", widget: "markdown"}
       - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
