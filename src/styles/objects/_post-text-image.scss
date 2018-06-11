@@ -127,16 +127,15 @@
 
     }
 
+    strong {
+      font-weight: $bold;
+    }
+
   }
 
   .cv-post-content {
     padding-top: 80px;
     padding-bottom: 20px;
-
-    strong {
-      font-weight: $bold;
-    }
-
   }
 
 }
