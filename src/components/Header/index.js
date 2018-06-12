@@ -7,9 +7,9 @@ const Header = () => (
       <h1><Link to="/" className="home-btn">Jordi Burch</Link></h1>
       <div className="menu">
         <p><Link to="/projects" className="menu-item">Projects</Link></p>
-        <p><Link to="/books" className="menu-item">Books</Link></p>
-        <p><Link to="/exhibitions" className="menu-item">Exhibitions</Link></p>
-        <p><Link to="/texts" className="menu-item">Texts</Link></p>
+        <p className='unused'><Link to="/books" className="menu-item">Books</Link></p>
+        <p className='unused'><Link to="/exhibitions" className="menu-item">Exhibitions</Link></p>
+        <p className='unused'><Link to="/texts" className="menu-item">Texts</Link></p>
         <p><Link to="/cv" className="menu-item">CV</Link></p>
       </div>
     </div>

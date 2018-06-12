@@ -48,6 +48,10 @@
       flex: 1;
       flex-direction: column;
 
+      .unused {
+        display: none;
+      }
+
       p {
         padding: 3px 1.5vw;
       }
