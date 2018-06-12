@@ -4,6 +4,22 @@ title: Como está o início depois do fim?
 path: /projects/como-esta-o-inicio-depois-do-fim
 date: '2018-01-01'
 image: /assets/images/uploads/01-015.jpg
+description: >-
+  _Como está o início depois do fim?_
+
+
+  A partir dos bairros sociais projetados por Álvaro Siza, Como está o início
+  depois do fim? explora o aspecto sensível da arquitetura, em sua recepção
+  coletiva e particular, e atenta para os rastos que ali se inscrevem.
+  Manifestações fragmentárias e residuais, os rastos podem lançar luz sobre um
+  passado perdido, mas também, em suas configurações projetivas e quase
+  cósmicas, guardar notícias sobre algo que ultrapassa o homem.
+
+
+  Bairros sociais projetados pelo arquiteto português Álvaro Siza Vieira em
+  quatro cidades européias: Bairro da Bouça, no Porto, Campo di Martre, na
+  Giudecca (Veneza), Bonjour Tristesse, em Berlim e Schilderswijk West, em Haia,
+  datados respectivamente de 1973, 1983, 1984 e 1985.
 featured: 'Yes'
 ---
 ![null](/assets/images/uploads/01-01.jpg)
