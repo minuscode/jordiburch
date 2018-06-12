@@ -10,9 +10,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Jordi Burch"
       meta={[
-        {
-          name: 'description', content: 'Barcelona, Spain, 1979. Jordi is now living in Sao Paulo, Brazil. With a special interest on building human touching stories, he’s always with his head full of ideas and, as he likes to call his future work, “novels”.' },
-        { name: 'keywords', content: 'Jordi Burch, Photograph, Magazine, Project, Text, Book, Exhibition' },
+        { name: 'description', content: 'Barcelona, Spain, 1979. Jordi is now living in Sao Paulo, Brazil. With a special interest on building human touching stories, he’s always with his head full of ideas and, as he likes to call his future work, “novels”.' },
+        { name: 'keywords', content: 'Jordi, Burch, Fotografia, Photography, Art, Brasil, Portugal' },
         { name: 'author', content: 'Jordi Burch' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       ]}
