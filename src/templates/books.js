@@ -17,7 +17,7 @@ function Template({
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
-        ((imgTags[i].alt === 'null') && (imgTags[i].alt = 'No description.'));
+        ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
         divContainer.innerHTML = divContainer.innerHTML + `
           <div class="markdownImage">
             <a href="${'#' + imgTags[i].src}" class='small-img'>
