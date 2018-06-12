@@ -5,9 +5,6 @@ path: /projects/sacrificio
 date: '2018-01-01'
 image: /assets/images/uploads/03-05.jpg
 description: >-
-  _Sacrifício_
-
-
   Em Sacrifício, há uma procura pela identificação de gestos que, em sua duração
   no tempo, guardam uma multiplicidade de sentidos sobre a questão do corpo.
 

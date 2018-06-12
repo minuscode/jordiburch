@@ -6,6 +6,7 @@ function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   let storeHTML = '';
+  console.log(html);
 
   if (typeof window !== `undefined`) {
     let divRandom = document.createElement('div');
@@ -52,6 +53,9 @@ function Template({
     <div className="project-container">
       <div className="post">
         <h1 className="pageTitle">{frontmatter.title}</h1>
+        {frontmatter.description !== '' && 
+          <p className="project-description">{frontmatter.description}</p>
+        }
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: storeHTML }}
@@ -72,6 +76,7 @@ export const pageQuery = graphql`
         path
         title
         image
+        description
       }
     }
   }

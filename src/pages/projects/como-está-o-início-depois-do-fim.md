@@ -5,9 +5,6 @@ path: /projects/como-esta-o-inicio-depois-do-fim
 date: '2018-01-01'
 image: /assets/images/uploads/01-015.jpg
 description: >-
-  _Como está o início depois do fim?_
-
-
   A partir dos bairros sociais projetados por Álvaro Siza, Como está o início
   depois do fim? explora o aspecto sensível da arquitetura, em sua recepção
   coletiva e particular, e atenta para os rastos que ali se inscrevem.

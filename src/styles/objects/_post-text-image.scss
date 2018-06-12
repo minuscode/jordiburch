@@ -8,6 +8,14 @@
     color: rgba($color: $black, $alpha: 0.5);
   }
 
+  .project-description {
+    max-width: 70%;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    line-height: 1.45;
+    color: rgba($color: $black, $alpha: 0.7);
+  }
+
   .blog-post-content, .cv-post-content {
     display: flex;
     height: 100%;
@@ -175,4 +183,6 @@
       }
     }
 
+    
   }
+  
