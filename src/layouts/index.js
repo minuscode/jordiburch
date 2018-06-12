@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
       <p className="footer">Jordi Burch - 2018</p>
-      <p className="footer">mail at <a href="mailto:burchjordi@gmail.com">burchjordi@gmail.com</a></p>
+      <p className="footer">mail at <a href="mailto:mail@jordiburch.com">mail@jordiburch.com</a></p>
     </div>
   </div>
 )
