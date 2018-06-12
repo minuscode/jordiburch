@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import favicon from '../components/Favicon/favicon.png'
 
 import Header from '../components/Header'
 import "../styles/style.scss"
@@ -14,6 +15,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'Jordi, Burch, Fotografia, Photography, Art, Brasil, Portugal' },
         { name: 'author', content: 'Jordi Burch' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
     
