@@ -13,7 +13,7 @@ const Projetos = ({
 
   return (
   <div>
-      <h1 className="pageTitle">Projects</h1>
+      <h1 className="pageTitle">Projetos</h1>
       <div className="postsDisplay" onLoad={console.log(this)}>{Posts}</div>
   </div>
   );

@@ -14,7 +14,7 @@ const Livros = ({
   { console.log(Posts) };
 return (
   <div>
-    <h1 className="pageTitle">Books</h1>
+    <h1 className="pageTitle">Livros</h1>
     <div className="postsDisplay">{Posts}</div>
   </div>
   );

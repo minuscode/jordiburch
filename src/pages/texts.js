@@ -13,7 +13,7 @@ const Textos = ({
 
   return (
     <div>
-      <h1 className="pageTitle">Texts</h1>
+      <h1 className="pageTitle">Textos</h1>
       <div className="postsDisplay">{Posts}</div>
     </div>
   );

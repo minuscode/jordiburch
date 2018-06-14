@@ -14,7 +14,7 @@ const Exposicoes = ({
   { console.log(Posts) };
   return (
   <div>
-    <h1 className="pageTitle">Exhibitions</h1>
+    <h1 className="pageTitle">Exposições</h1>
     <div className="postsDisplay">{Posts}</div>
   </div>
   );
