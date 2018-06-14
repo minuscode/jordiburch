@@ -22,12 +22,13 @@ body, #___gatsby {
 
   .wrapper {
     width: 100%;
-    padding-right: 30px;
+    padding: 0 5%;
     overflow: scroll;
   }
 
   .footer {
     padding-top: 10px;
+    transform: translateX(-6%);
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: $regular;
@@ -38,6 +39,10 @@ body, #___gatsby {
     a {
       text-decoration: underline;
       color: rgba($color: $black, $alpha: 0.5);  
+    }
+
+    &.bot-space {
+      margin-bottom: 30px;
     }
 
   }

@@ -23,17 +23,11 @@ const TemplateWrapper = ({ children }) => (
     
     <Header />
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 1550,
-        paddingTop: 0,
-      }}
-
       className="wrapper"
     >
       {children()}
       <p className="footer">Jordi Burch - 2018</p>
-      <p className="footer">mail at <a href="mailto:mail@jordiburch.com">mail@jordiburch.com</a></p>
+      <p className="footer bot-space">mail at <a href="mailto:mail@jordiburch.com">mail@jordiburch.com</a></p>
     </div>
   </div>
 )
