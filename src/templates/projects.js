@@ -57,7 +57,7 @@ function Template({
           <p className="project-description">{frontmatter.description}</p>
         }
         <div
-          className="blog-post-content image-content"
+          className="blog-post-content image-content hide"
           dangerouslySetInnerHTML={{ __html: storeHTML }}
         />
       </div>
