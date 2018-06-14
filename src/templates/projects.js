@@ -57,20 +57,12 @@ function Template({
           <p className="project-description">{frontmatter.description}</p>
         }
         <div
-          className="blog-post-content image-content hide"
+          className="blog-post-content image-content"
           dangerouslySetInnerHTML={{ __html: storeHTML }}
         />
       </div>
     </div>
   );
-}
-
-if (typeof window !== `undefined`) {
-  let blogpost = document.querySelector('.blog-post-content');
-
-  if (blogpost.readyState === 'complete') {
-    blogpost.classList.remove('hide'); // The page is fully loaded
-  }
 }
 
 export default Template;
