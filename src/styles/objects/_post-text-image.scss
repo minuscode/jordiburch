@@ -66,6 +66,12 @@
         display: inline-block;
         width: 100%;
         padding: 30px 0 30px;
+        opacity: 1;
+        transition: 0.5s;
+
+        &.hide {
+          opacity: 0;
+        }
       }
 
     }

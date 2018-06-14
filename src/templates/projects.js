@@ -21,7 +21,7 @@ function Template({
       for (let i = 0; i < imgTags.length; i++) {
         ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
         divContainer.innerHTML = divContainer.innerHTML + `
-          <div class="markdownImage">
+          <div class="markdownImage" class="hide" onload="this.classList.remove('hide')">
             <a href="${'#' + imgTags[i].src}" class='small-img'>
               <div class="container">
                   <div class="image">
