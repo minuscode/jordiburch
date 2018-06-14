@@ -8,7 +8,7 @@ const PostLink = ({ post }) => (
       
         <div className="container">
           <div className="image">
-          <img src={post.frontmatter.image} alt="" className="hide" onLoad={console.log(this)} />
+          <img src={post.frontmatter.image} alt="" onLoad={console.log(this)} />
           </div>
 
           <div className="text imagePostBox">
