@@ -14,10 +14,11 @@ const Projetos = ({
   return (
   <div>
       <h1 className="pageTitle">Projects</h1>
-    <div className="postsDisplay">{Posts}</div>
+      <div className="postsDisplay" onLoad={console.log(this)}>{Posts}</div>
   </div>
   );
 };
+
 
 export default Projetos;
 

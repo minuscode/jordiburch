@@ -105,8 +105,14 @@
         max-height: 100%;
         
         img {
-          padding: 0;
           max-width: 100%;
+          padding: 0;
+          opacity: 1;
+          transition: 0.5s;
+
+          &.hide{
+            opacity: 0;
+          }
         }
 
       }
@@ -162,6 +168,12 @@
       max-width: 90%;
       max-height: 80%;
       margin-top: 2%;
+      opacity: 1;
+      transition: 0.3s;
+
+      &.hide {
+        opacity: 0;
+      }
     }
 
     &:target {

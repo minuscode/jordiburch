@@ -23,7 +23,7 @@ function Template({
             <a href="${'#' + imgTags[i].src}" class='small-img'>
               <div class="container">
                   <div class="image">
-                    <img src="${imgTags[i].src}" alt="" />
+                    <img src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
                   </div>
 
                   <div class="text imagePostBox">
@@ -32,7 +32,7 @@ function Template({
               </div>
             </a>
             <a href='#_' class='lightbox' id="${imgTags[i].src}">
-              <img src="${imgTags[i].src}" />
+              <img src="${imgTags[i].src}" class="hide" onload="this.classList.remove('hide')" />
               <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
             </a>
           </div>

@@ -75,6 +75,12 @@
   
       img {
         width: 100%;
+        opacity: 1;
+        transition: 0.5s;
+
+        &.hide {
+          opacity: 0;
+        }
       }
 
     }
