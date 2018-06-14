@@ -64,6 +64,7 @@
 
       .markdownImage {
         display: inline-block;
+        width: 100%;
         padding: 30px 0 30px;
       }
 
@@ -153,10 +154,11 @@
 
     p {
       padding: 0;
-      
+
       img {
         display: inline-block;
         max-width: 100%;
+        width: 100%;
         padding: 30px 0 30px;
       }
     }
