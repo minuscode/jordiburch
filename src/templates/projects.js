@@ -18,6 +18,12 @@ function Template({
     console.log(imgTags.length);
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
+      function lazyLoad(imgLoaded){
+        imgLoaded.setAttribute('src', imgLoaded.getAttribute('data-src'));
+        imgLoaded.onload = function () {
+          imgLoaded.removeAttribute('data-src');
+        };
+      }
       for (let i = 0; i < imgTags.length; i++) {
         ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
         divContainer.innerHTML = divContainer.innerHTML + `
@@ -25,7 +31,7 @@ function Template({
             <a href="${'#' + imgTags[i].src}" class='small-img'>
               <div class="container">
                   <div class="image">
-                    <img src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
+                    <img data-src="${imgTags[i].src}" alt="" class="" onload="lazyLoad(this)" />
                   </div>
 
                   <div class="text imagePostBox">
