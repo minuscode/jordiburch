@@ -25,7 +25,7 @@ function Template({
             <a href="${'#' + imgTags[i].src}" class='small-img'>
               <div class="container">
                   <div class="image">
-                    <img data-src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
+                    <img src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
                   </div>
 
                   <div class="text imagePostBox">
