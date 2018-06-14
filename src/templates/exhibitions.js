@@ -48,7 +48,7 @@ function Template({
       <div className="post">
         <h1 className="pageTitle">{frontmatter.title}</h1>
         <div
-          className="blog-post-content"
+          className="blog-post-content image-content"
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
       </div>

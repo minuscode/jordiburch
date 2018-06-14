@@ -59,8 +59,8 @@
     }
 
     .markdownContainer {
-      column-count: 2;
-      column-gap: 60px;
+      //column-count: 2;
+      //column-gap: 60px;
 
       .markdownImage {
         display: inline-block;
@@ -144,6 +144,22 @@
       font-weight: $bold;
     }
 
+  }
+
+  .image-content {
+    display: block;
+    column-count: 2;
+    column-gap: 60px;
+
+    p {
+      padding: 0;
+      
+      img {
+        display: inline-block;
+        max-width: 100%;
+        padding: 30px 0 30px;
+      }
+    }
   }
 
   .cv-post-content {

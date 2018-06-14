@@ -45,12 +45,6 @@ function Template({
 
     storeHTML = data.markdownRemark.html;
     divRandom.remove();
-
-    for (let i = 0; i < imgTags.length; i++) {
-      imgTags[i].onload = function () {
-        imgTags[i].classList.remove('hide');
-      }
-    }
   }
 
   storeHTML = data.markdownRemark.html;
@@ -63,7 +57,7 @@ function Template({
           <p className="project-description">{frontmatter.description}</p>
         }
         <div
-          className="blog-post-content"
+          className="blog-post-content image-content"
           dangerouslySetInnerHTML={{ __html: storeHTML }}
         />
       </div>
