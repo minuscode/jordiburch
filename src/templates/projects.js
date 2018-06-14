@@ -65,6 +65,14 @@ function Template({
   );
 }
 
+if (typeof window !== `undefined`) {
+  let blogpost = document.querySelector('blog-post-content');
+
+  if (blogpost.readyState === 'complete') {
+    blogpost.classList.remove('hide'); // The page is fully loaded
+  }
+}
+
 export default Template;
 
 export const pageQuery = graphql`

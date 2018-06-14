@@ -19,6 +19,8 @@
   .blog-post-content, .cv-post-content {
     display: flex;
     height: 100%;
+    opacity: 1;
+    transition: 0.5s;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
@@ -149,6 +151,10 @@
 
     strong {
       font-weight: $bold;
+    }
+
+    &.hide {
+      opacity: 0;
     }
 
   }
