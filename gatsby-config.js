@@ -14,6 +14,15 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-33665278-7",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
    /* {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
