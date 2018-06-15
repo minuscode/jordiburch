@@ -54,7 +54,15 @@ function Template({
       <div className="post">
         <h1 className="pageTitle">{frontmatter.title}</h1>
         {frontmatter.description !== '' && 
-          <p className="project-description">{frontmatter.description}</p>
+          <div>
+            <a href={'#' + frontmatter.title} className='dbutton'>
+              <h2>Descrição</h2>
+            </a>
+
+          <a href='#_' class='lightbox text-box' id={frontmatter.title}>
+              <p className="project-description">{frontmatter.description}</p>
+            </a>
+          </div>
         }
         <div
           className="blog-post-content image-content"

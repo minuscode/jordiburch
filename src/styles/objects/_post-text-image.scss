@@ -1,19 +1,23 @@
 .project-container {
 
   .pageTitle {
-    padding-top: 45px;
+    padding: 45px 0 15px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: $regular;
     color: $black;
   }
 
-  .project-description {
-    max-width: 70%;
+  .dbutton {
+    padding-top: 15px;
     font-family: 'Roboto', sans-serif;
-    padding: 20px 0;
-    line-height: 1.45;
-    color: rgba($color: $black, $alpha: 0.7);
+    font-weight: $regular;
+    color: $black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+    
   }
 
   .blog-post-content, .cv-post-content {
@@ -74,6 +78,7 @@
         &.hide {
           opacity: 0;
         }
+
       }
 
     }
@@ -107,6 +112,7 @@
         &:hover {
           opacity: 1;
         }
+
       }
 
       .image {
@@ -122,6 +128,7 @@
           &.hide{
             opacity: 0;
           }
+
         }
 
       }
@@ -224,7 +231,29 @@
         color: $white;
       }
     }
-
     
   }
   
+  .text-box {
+    align-items: center;
+    justify-content: center;
+    
+    .project-description {
+      max-width: 40%;
+      padding: 30px;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.45;
+      color: rgba($color: $black, $alpha: 0.7);
+      background-color: $soft-white;
+
+      @include media-query(tab) {
+        max-width: 90%;
+      }
+
+    }
+
+    &:target {
+      display: flex;
+    }
+
+  }
