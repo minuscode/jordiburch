@@ -10,7 +10,7 @@ const Header = () => (
         <p className='unused'><Link to="/books" className="menu-item">Livros</Link></p>
         <p className='unused'><Link to="/exhibitions" className="menu-item">Exposições</Link></p>
         <p className='unused'><Link to="/texts" className="menu-item">Textos</Link></p>
-        <p><Link to="/cv" className="menu-item">CV</Link></p>
+        <p><Link to="/about" className="menu-item">Sobre</Link></p>
       </div>
     </div>
   </div>

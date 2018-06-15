@@ -76,16 +76,16 @@ collections:
       - { name: "body", label: "Body", widget: "markdown"}
       - { name: "featured", label: "Show on Homepage", widget: "select", options: ["Yes", "No"], default: "No" }
     
-  - name: cv
-    label: Curriculum Vitae
-    label_singular: Curriculum Vitae
-    folder: src/pages/cv
+  - name: about
+    label: About
+    label_singular: About
+    folder: src/pages/about
     create: true
     editor:
       preview: false
     slug: "{{slug}}"
     fields:
-      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "cv"}
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "about"}
       - { name: title, label: Title }
       - { name: "path", label: "Path Name" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}

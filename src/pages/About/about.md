@@ -1,7 +1,7 @@
 ---
-templateKey: cv
-title: CV
-path: /cv
+templateKey: about
+title: About
+path: /about
 date: '2018-05-16'
 ---
 **Barcelona, Spain, 1979. Jordi is now living in Sao Paulo, Brazil**
