@@ -60,6 +60,7 @@ function Template({
   return (
     <div className="project-container">
       <div className="post">
+        <div className="top">
         <h1 className="pageTitle">{frontmatter.title}</h1>
         {frontmatter.description !== '' && 
           <div className='dbutton'>
@@ -72,6 +73,7 @@ function Template({
             </a>
           </div>
         }
+        </div>
         <div
           className="blog-post-content image-content"
           dangerouslySetInnerHTML={{ __html: storeHTML }}

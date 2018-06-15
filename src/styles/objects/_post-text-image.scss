@@ -1,7 +1,14 @@
 .project-container {
 
-  .pageTitle {
+  .top {
+    display: flex;
     padding: 45px 0 15px;
+    justify-content: center;
+  }
+
+  .pageTitle {
+    padding-top: 0;
+    flex: 1;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: $regular;
@@ -9,6 +16,7 @@
   }
 
   .dbutton {
+    flex: 1;
     text-align: right;
 
     a {
@@ -33,7 +41,7 @@
       }
     
     }
-    
+
   }
 
   .blog-post-content, .cv-post-content {
