@@ -223,7 +223,7 @@
     text-align: center;
     top: 0;
     left: 0;
-    background: $black;
+    background: $soft-white;
 
     .link {
       width: 100%;
@@ -266,17 +266,17 @@
 
     .arrow {
         position: absolute;
-        width: 10%;
+        width: 5%;
         top: 50%;
-        right: 5%;
+        right: 10%;
         transform: translateY(-50%);
-        filter: invert(100%);
+        //filter: invert(100%);
         z-index: 999;
       
         &-invert {
           @extend .arrow;
           right: auto;
-          left: 5%;
+          left: 10%;
           transform: translateY(-50%) rotate(180deg);
         }
     }
