@@ -87,12 +87,13 @@
     }
 
   }
+
   
   @include media-query(tab) {
-      column-count: 1;
-      column-gap: 0;
+    column-count: 1;
+    column-gap: 0;
   }
-
+  
   .lightbox {
     display: none;
     position: fixed;
@@ -103,18 +104,18 @@
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.8);
-
+    
     img {
       max-width: 90%;
       max-height: 80%;
       margin-top: 2%;
     }
-
+    
     &:target {
       display: block;
       outline: none;
     }
-
+    
     .descriptionBox {
       padding-top: 30px;
       margin: 0 auto;
@@ -127,10 +128,66 @@
         color: $white;
       }
     }
-
+    
   }
+  
+  .project-post {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 10px 0 5px;
+    overflow: visible;
+    
+      .container {
+        flex-direction: row-reverse;
+        border: none;
+        overflow: visible;
+    
+        .image {
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          border: none;
+          transition: 0.3s;
+          overflow: visible;
+    
+          img {
+            width: 20%;
+          }
+    
+        }
+    
+        .imagePostBox{
+          display: inline-block;
+          position: relative;
+          padding: 0;
+          background-color: transparent;
+          text-align: left;
+          opacity: 1;
 
+          h1 {
+            color: $black;
+          }
+
+        }
+        
+      }
+
+      &:hover {
+        .image {
+          opacity: 1;;
+        }
+
+      }
+  
+  }
+  
 }
+
+.projectsDisplay {
+  column-count: auto;
+}
+
 
 .homepageDisplay {
   padding-top: 85px;

@@ -90,6 +90,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
+        templateKey
         date(formatString: "MMMM DD, YYYY")
         path
         title
