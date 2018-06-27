@@ -232,6 +232,7 @@
       left: 0;
       position: fixed;
     }
+    
 
     img {
       max-width: 90%;
@@ -260,7 +261,7 @@
         padding: 0 20%;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        color: $white;
+        color: $black;
       }
     }
 
@@ -279,6 +280,20 @@
           left: 10%;
           transform: translateY(-50%) rotate(180deg);
         }
+
+    }
+
+    .close {
+      position: absolute;
+      width: 3%;
+      top: 3%;
+      right: 20%;
+      transition: 0.4s;
+
+      &:hover {
+        transform: rotate(180deg)
+      }
+
     }
     
   }

@@ -38,6 +38,9 @@ function Template({
                 <img src="${imgTags[i].src}" class="hide" onload="this.classList.remove('hide')" >
                 <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
               </a>
+              <a href='#_' class='close'>
+                <img src="https://i.imgur.com/fkhylMC.png"/>
+              </a>
               <a href="#${i+1}" class="arrow" id="${i}">
                 <img src="https://i.imgur.com/o7Fiap8.png"/>
               </a>
