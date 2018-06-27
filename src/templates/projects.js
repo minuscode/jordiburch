@@ -58,11 +58,11 @@ function Template({
 
     function keyCheck(e) {
       var keyID = (window.event) ? event.keyCode : e.keyCode;
-      console.log(keyID);
+      //console.log(keyID);
       switch (keyID) {
         case 39:
           if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false){
-            let num = window.location.href.slice(-1);
+            let num = window.location.href.split("#").pop();
             let arrows = Array.from(document.querySelectorAll('.arrow'));
             arrows[num].click();
           }
@@ -70,7 +70,7 @@ function Template({
   
         case 37:
           if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false) {
-            let numIn = window.location.href.slice(-1);
+            let numIn = window.location.href.split("#").pop();
             let arrowsInvert = Array.from(document.querySelectorAll('.arrow-invert'));
             arrowsInvert[numIn].click();
           }
