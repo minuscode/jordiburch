@@ -6,16 +6,18 @@ function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   let storeHTML = '';
-  console.log(html);
+  //console.log(html);
 
   if (typeof window !== `undefined`) {
+    document.onkeydown = keyCheck;
     let divRandom = document.createElement('div');
     let divContainer = document.createElement('div');
     divContainer.className = "markdownContainer";
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
-    console.log(imgTags.length);
+    //console.log(imgTags.length);
+
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {
@@ -41,7 +43,7 @@ function Template({
               <a href='#_' class='close'>
                 <img src="https://i.imgur.com/fkhylMC.png"/>
               </a>
-              <a href="#${i+1}" class="arrow" id="${i}">
+              <a href="#${i + 1}" class="arrow" id="${i}">
                 <img src="https://i.imgur.com/o7Fiap8.png"/>
               </a>
               <a href="#${i - 1}" class="arrow-invert" id="${i}">
@@ -54,10 +56,39 @@ function Template({
       data.markdownRemark.html = divRandom.innerHTML;
     }
 
+    function keyCheck(e) {
+      var keyID = (window.event) ? event.keyCode : e.keyCode;
+      console.log(keyID);
+      switch (keyID) {
+        case 39:
+          if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false){
+            let num = window.location.href.slice(-1);
+            let arrows = Array.from(document.querySelectorAll('.arrow'));
+            arrows[num].click();
+          }
+          break;
+  
+        case 37:
+          if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false) {
+            let numIn = window.location.href.slice(-1);
+            let arrowsInvert = Array.from(document.querySelectorAll('.arrow-invert'));
+            arrowsInvert[numIn].click();
+          }
+          break;
+
+        case 27:
+          if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false) {
+            document.querySelector('.close').click();
+          }
+        break;
+      }
+    }
+
     storeHTML = data.markdownRemark.html;
     divRandom.remove();
-  }
 
+  }
+  
   storeHTML = data.markdownRemark.html;
 
   return (
