@@ -73,6 +73,7 @@ function Template({
 
           <a href='#_' class='lightbox text-box' id={frontmatter.title}>
               <p className="project-description">{frontmatter.description}</p>
+              <img className="close" src="https://i.imgur.com/fkhylMC.png" />
             </a>
           </div>
         }

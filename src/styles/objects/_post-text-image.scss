@@ -317,6 +317,10 @@
 
     }
 
+    .close {
+      width: 2%;
+    }
+
     &:target {
       display: flex;
     }
