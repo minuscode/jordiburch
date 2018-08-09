@@ -26,7 +26,7 @@ description: >-
   Sacrifício esteve exposto em 2013, no Hospital Miguel Bombarda, em Lisboa, com
   curadoria de Luís Campos e, em 2014, em Braga, no festival Encontros da
   Imagem, com curadoria de Rui Prata e Angela Ferreira.
-featured: 'Yes'
+featured: 'No'
 ---
 ![null](/assets/images/uploads/03-01.jpg)
 
