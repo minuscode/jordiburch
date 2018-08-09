@@ -17,7 +17,7 @@ description: >-
   quatro cidades européias: Bairro da Bouça, no Porto, Campo di Martre, na
   Giudecca (Veneza), Bonjour Tristesse, em Berlim e Schilderswijk West, em Haia,
   datados respectivamente de 1973, 1983, 1984 e 1985.
-featured: 'Yes'
+featured: 'No'
 ---
 ![null](/assets/images/uploads/01-01.jpg)
 
