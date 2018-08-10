@@ -36,7 +36,7 @@ description: >-
 
   Havia sol e éramos novos foi publicado em um livro homônimo com tiragem de 20
   exemplares assinados, lançado em 2015 na sp-arte/foto
-featured: 'Yes'
+featured: 'No'
 ---
 ![null](/assets/images/uploads/02-01.jpg)
 
