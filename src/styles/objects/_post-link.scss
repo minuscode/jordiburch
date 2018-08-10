@@ -191,4 +191,13 @@
 
 .homepageDisplay {
   padding-top: 85px;
+  column-count: 1;
+
+  .preview-post {
+    .container {
+      border: none;
+    }
+
+  }
+
 }
