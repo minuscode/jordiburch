@@ -196,6 +196,11 @@
   .preview-post {
     .container {
       border: none;
+
+      .image {
+        border-bottom: none;
+      }
+      
     }
 
   }
