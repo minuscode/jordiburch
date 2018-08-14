@@ -34,6 +34,4 @@ featured: 'No'
 
 ![null](/assets/images/uploads/03-03.jpg)
 
-![null](/assets/images/uploads/03-04.jpg)
-
 ![null](/assets/images/uploads/03-05.jpg)
