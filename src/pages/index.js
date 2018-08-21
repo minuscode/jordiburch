@@ -30,6 +30,7 @@ export const pageQuery = graphql`
             path
             title
             image
+            imagend
             templateKey
             featured
           }
