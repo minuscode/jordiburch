@@ -15,7 +15,7 @@ const PostSlider = ({ post }) => (
               <img src={post.frontmatter.image} />
             </div>
             <div>
-              <img src={post.frontmatter.imagend} />
+              <img src={post.frontmatter.image} />
             </div>
           </Carousel>
         </div>
