@@ -1,7 +1,7 @@
 import React from "react";
 import PostLink from "../components/post-link";
 import Link from 'gatsby-link';
-
+import { Carousel } from 'react-responsive-carousel';
 
 const IndexPage = ({
   data: {
@@ -30,6 +30,7 @@ export const pageQuery = graphql`
             path
             title
             image
+            image2
             templateKey
             featured
           }
