@@ -32,4 +32,4 @@ const PostSlider = ({ post }) => (
 
 );
 
-export default PostLink;
+export default PostSlider;
