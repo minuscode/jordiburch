@@ -10,7 +10,7 @@ const PostSlider = ({ post }) => (
 
       <div className="container">
         <div className="image">
-          <Carousel autoPlay interval={10000} infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false}>
+          <Carousel autoPlay interval={10000} infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} dynamicHeight>
             <div>
               <img src={post.frontmatter.image} />
             </div>
