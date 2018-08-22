@@ -31,7 +31,6 @@ export const pageQuery = graphql`
             title
             image
             imagend
-            imagerd
             templateKey
             featured
           }
