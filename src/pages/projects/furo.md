@@ -47,6 +47,6 @@ featured: 'No'
 
 ![Exposição Furo - Janaina Torres Galeria. São Paulo 2019](/assets/images/uploads/06-016.jpg)
 
-![Exposição Furo - Janaina Torres Galeria. São Paulo 2019](/assets/images/uploads/06-017.jpg)
+![](/assets/images/uploads/06-017.jpg)
 
-![Exposição Furo - Janaina Torres Galeria. São Paulo 2019](/assets/images/uploads/06-018.jpg)
+![](/assets/images/uploads/06-018.jpg)
