@@ -9,6 +9,4 @@ imagerd: /assets/images/uploads/slider_3.jpg
 description: Jordi Burch
 featured: 'Yes'
 ---
-![null](/assets/images/uploads/slider_1.jpg)
-
-![null](/assets/images/uploads/slider_2.jpg)
+![](/assets/images/uploads/012-copy.jpg)
