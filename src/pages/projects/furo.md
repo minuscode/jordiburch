@@ -25,7 +25,7 @@ featured: 'No'
 
 ![null](/assets/images/uploads/06-004.jpg)
 
-![null](/assets/images/uploads/06-005.jpg)
+![null](/assets/images/uploads/06-0005.jpg)
 
 ![null](/assets/images/uploads/06-006.jpg)
 
