@@ -33,8 +33,6 @@ featured: 'No'
 
 ![null](/assets/images/uploads/04-013.jpg)
 
-![null](/assets/images/uploads/04-014.jpg)
-
 ![null](/assets/images/uploads/04-015.jpg)
 
 ![null](/assets/images/uploads/04-016.jpg)
