@@ -17,7 +17,7 @@ description: >-
   Exposição na Janaina Torres Galeria – São Paulo, 2019
 featured: 'No'
 ---
-![null](/assets/images/uploads/06-001.jpg)
+![null](/assets/images/uploads/06-01.jpg)
 
 ![null](/assets/images/uploads/06-002.jpg)
 
