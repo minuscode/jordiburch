@@ -1,6 +1,6 @@
 ---
 templateKey: projects
-title: Furo
+title: Furdo
 path: /projects/furo
 date: '2018-01-01'
 image: /assets/images/uploads/06-004.jpg
