@@ -3,7 +3,7 @@ templateKey: projects
 title: Furo
 path: /projects/furo
 date: '2018-01-01'
-image: /assets/images/uploads/06-001.jpg
+image: /assets/images/uploads/06-004.jpg
 description: >-
   "Em Furo, as imagens existem enquanto manifestação — e projeção — da linguagem
   fotográfica. Os processos envolvidos na sua realização elaboram um movimento
