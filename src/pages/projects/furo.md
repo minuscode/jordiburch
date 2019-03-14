@@ -11,9 +11,13 @@ description: >-
   Este percurso investigativo coloca em evidência a matéria fotográfica, e seu
   caráter latente; a partir do mergulho em sua linguagem configuram-se, por
   vezes inadvertidamente, novas possibilidades e significados"
-   
+
+
+
+
   Curadora Marta Mestre
-   
+
+
   Exposição na Janaina Torres Galeria – São Paulo, 2019
 featured: 'No'
 ---
@@ -47,6 +51,6 @@ featured: 'No'
 
 ![Exposição Furo - Janaina Torres Galeria. São Paulo 2019](/assets/images/uploads/06-016.jpg)
 
-![](/assets/images/uploads/06-017.jpg)
+![null](/assets/images/uploads/06-017.jpg)
 
-![](/assets/images/uploads/06-018.jpg)
+![null](/assets/images/uploads/06-018.jpg)
