@@ -69,6 +69,7 @@
     
     p, li {
       padding: 5px 20px;
+      line-height: 1.5;
       font-family: 'Roboto', sans-serif;
       font-weight: $light;
       color: rgba($color: #000000, $alpha: 0.7);
@@ -325,4 +326,8 @@
       display: flex;
     }
 
+  }
+
+  em {
+    font-style: italic;
   }
