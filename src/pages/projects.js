@@ -24,7 +24,7 @@ export default Projetos;
 
 export const pageQuery = graphql`
   query IndexQueryProjetos {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order, frontmatter___date] }) {
       edges {
         node {
           id
@@ -35,6 +35,7 @@ export const pageQuery = graphql`
             title
             image
             templateKey
+            order
           }
         }
       }
