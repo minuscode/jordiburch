@@ -102,7 +102,7 @@ function Template({
               <h2>Descrição</h2>
             </a>
 
-          <a href='#_' class='lightbox text-box' id={frontmatter.title}>
+          <a href="#_" className="lightbox text-box" id={frontmatter.title}>
               <p className="project-description">{frontmatter.description}</p>
               <img className="close" src="https://i.imgur.com/fkhylMC.png" />
             </a>
