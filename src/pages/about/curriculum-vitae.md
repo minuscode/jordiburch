@@ -16,12 +16,13 @@ Entre as sua atividades mais recentes destacam-se as exposições _neighbourhood
 
 Em 2008 passa a viver em São Paulo.
 
-
-## **Exposições individuais:** 
+## **Exposições individuais:**
 
 **2018** “Furo” curadoria de Marta Mestre, Janaina Torres Galeria. São Paulo, Brasil
 
-“As Durações do Rastro” curadoria de Veronica Stigger. Fundação Iberê Camargo, Porto Alegre, Brasil.                                                                                                                                    2015 “Havia sol e éramos novos”, curadoria Isabella Lenzi. Virada cultural, São Paulo - Brasil
+“As Durações do Rastro” curadoria de Veronica Stigger. Fundação Iberê Camargo, Porto Alegre, Brasil.
+
+**2015** “Havia sol e éramos novos”, curadoria Isabella Lenzi. Virada cultural, São Paulo - Brasil
 
 **2014** “Se não me engano faz Angola”, Galeria Plataforma Revólver, Lisboa - Portugal
 
@@ -35,9 +36,7 @@ Em 2008 passa a viver em São Paulo.
 
 **2008** “The cure for love”, Galeria Nara Roesler, São Paulo - Brasil
 
-
-
-## **Exposições coletivas:** 
+## **Exposições coletivas:**
 
 **2018** “Caixa Preta” Curadoria de Bernaro José de Souza, Eduardo Sterzi, Fernanda Brenner e Veronica Stiger. Fundação Iberê Camargo, Porto Alegre, Brasil
 
@@ -63,8 +62,7 @@ Noites brancas, Les Reencontres d'Arles Festival, Arles - França
 
 “People”, Fundação EDP, Lisboa - Portugal
 
-
-## **Residências:** 
+## **Residências:**
 
 **2014** “Olhares contemporâneos” curadoria Jean-François Chougnet. Museu Nacional de Arte Antiga de Lisboa, Lisboa – Portugal                                                                                                                                                                                            **2012** Triangle Network, Lisboa – Portugal
 
