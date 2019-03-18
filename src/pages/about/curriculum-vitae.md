@@ -4,7 +4,7 @@ title: Curriculum Vitae
 path: /about
 date: '2019-03-18'
 ---
-**Curriculum Vitae**
+## **Curriculum Vitae**
 
 Nascido em Barcelona no ano de 1979, mudou-se para Lisboa em 81.
 
@@ -12,13 +12,12 @@ Estudou fotografia no Ar.Co – Centro de Arte e Comunicação Visual, em Lisb
 
 Foi membro do colectivo Kameraphoto entre 2007 e 2014. 
 
-Entre as sua atividades mais recentes destacam-se as exposições _neighbourhood_ na Bienal de Arquitetura de Veneza e Centro Cultural de Belém(Lisboa), as_ durações do rastro_ na Fundação Iberê Camargo e _furo_, Janaina Tores Galeria
+Entre as sua atividades mais recentes destacam-se as exposições _neighbourhood_ na Bienal de Arquitetura de Veneza e Centro Cultural de Belém(Lisboa), as _durações do rastro_ na Fundação Iberê Camargo e _furo_, Janaina Tores Galeria
 
 Em 2008 passa a viver em São Paulo.
 
- 
 
-**Exposições individuais:  ** 
+## **Exposições individuais:** 
 
 **2018** “Furo” curadoria de Marta Mestre, Janaina Torres Galeria. São Paulo, Brasil
 
@@ -36,9 +35,9 @@ Em 2008 passa a viver em São Paulo.
 
 **2008** “The cure for love”, Galeria Nara Roesler, São Paulo - Brasil
 
- 
 
-**Exposições coletivas:** 
+
+## **Exposições coletivas:** 
 
 **2018** “Caixa Preta” Curadoria de Bernaro José de Souza, Eduardo Sterzi, Fernanda Brenner e Veronica Stiger. Fundação Iberê Camargo, Porto Alegre, Brasil
 
@@ -64,15 +63,12 @@ Noites brancas, Les Reencontres d'Arles Festival, Arles - França
 
 “People”, Fundação EDP, Lisboa - Portugal
 
- 
 
-**Residências:** 
+## **Residências:** 
 
 **2014** “Olhares contemporâneos” curadoria Jean-François Chougnet. Museu Nacional de Arte Antiga de Lisboa, Lisboa – Portugal                                                                                                                                                                                            **2012** Triangle Network, Lisboa – Portugal
 
- 
-
-**Publicações**
+## **Publicações**
 
 Livro “como está o início depois do fim?”, edições Tinta-da-China
 
