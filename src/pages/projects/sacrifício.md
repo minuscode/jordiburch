@@ -3,7 +3,7 @@ templateKey: projects
 title: Sacrifício
 path: /projects/sacrificio
 date: '2018-01-01'
-image: /assets/images/uploads/03-05.jpg
+image: /assets/images/uploads/03-01.jpg
 description: >-
   Em Sacrifício, há uma procura pela identificação de gestos que, em sua duração
   no tempo, guardam uma multiplicidade de sentidos sobre a questão do corpo.
@@ -27,6 +27,7 @@ description: >-
   curadoria de Luís Campos e, em 2014, em Braga, no festival Encontros da
   Imagem, com curadoria de Rui Prata e Angela Ferreira.
 featured: 'No'
+order: '1'
 ---
 ![null](/assets/images/uploads/03-01.jpg)
 
