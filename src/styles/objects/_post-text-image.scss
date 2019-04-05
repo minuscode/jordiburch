@@ -21,10 +21,12 @@
 
     a {
       padding-top: 15px;
+      align-items: flex-start;
       font-family: 'Roboto', sans-serif;
       font-weight: $regular;
       text-align: right;
       color: $black;
+      overflow: scroll;
 
       h2 {
         display: inline-block;
