@@ -24,7 +24,7 @@ export default Projetos;
 
 export const pageQuery = graphql`
   query IndexQueryProjetos {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order, frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___order] }) {
       edges {
         node {
           id
