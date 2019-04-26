@@ -6,13 +6,7 @@ date: '2018-01-01'
 image: /assets/images/uploads/05-09.jpg
 featured: 'Yes'
 ---
-![](/assets/images/uploads/05-012.jpg)
-
-![](/assets/images/uploads/05-011.jpg)
-
-![](/assets/images/uploads/05-010.jpg)
-
-1. ![](/assets/images/uploads/05-09.jpg)
+![](/assets/images/uploads/05-09.jpg)
 
 ![null](/assets/images/uploads/05-013.jpg)
 
