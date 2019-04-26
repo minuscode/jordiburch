@@ -12,7 +12,7 @@ const PostSlider = ({ post }) => (
       <div className="container">
         <div className="image">
           <Carousel autoPlay interval={10000} infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} dynamicHeight>
-            {(post.frontmatter.images.split('(').join(')').split(')').map(img => (
+            {post.frontmatter.images != null && (post.frontmatter.images.split('(').join(')').split(')').map(img => (
               img.includes('/assets/images/uploads') &&
               <div>
                 <img src={img} />
