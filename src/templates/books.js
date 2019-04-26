@@ -20,7 +20,7 @@ function Template({
         ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
         divContainer.innerHTML = divContainer.innerHTML + `
           <div class="markdownImage">
-            <a href="${'#' + imgTags[i].src}" class='small-img'>
+            <a href="${'#' + i}" class='small-img'>
               <div class="container">
                   <div class="image">
                     <img src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
@@ -31,10 +31,21 @@ function Template({
                   </div>
               </div>
             </a>
-            <a href='#_' class='lightbox' id="${imgTags[i].src}">
-              <img src="${imgTags[i].src}" class="hide" onload="this.classList.remove('hide')" />
-              <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
-            </a>
+            <div class="lightbox" id="${i}"">
+              <a href='#_' class='link'>
+                <img src="${imgTags[i].src}" class="hide" onload="this.classList.remove('hide')" >
+                <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
+              </a>
+              <a href='#_' class='close'>
+                <img src="https://i.imgur.com/fkhylMC.png"/>
+              </a>
+              <a href="#${i + 1}" class="arrow" id="${i}">
+                <img src="https://i.imgur.com/o7Fiap8.png"/>
+              </a>
+              <a href="#${i - 1}" class="arrow-invert" id="${i}">
+                <img src="https://i.imgur.com/o7Fiap8.png"/>
+              </a>
+            </div>
           </div>
         `;
       }
