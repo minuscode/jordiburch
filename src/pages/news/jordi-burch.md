@@ -12,10 +12,8 @@ images: >-
   Camargo](/assets/images/uploads/012-copy.jpg)
 
 
-
-
   ![Como Está o Início Depois do Fim? - Centro Cultural de
-  Belém](/assets/images/uploads/05-02.jpg)
+  Belém](/assets/images/uploads/_mg_3905-copy-copy.jpg)
 description: Jordi Burch
 featured: 'Yes'
 ---
