@@ -3,10 +3,10 @@ templateKey: books
 title: Como está o início depois do fim?
 path: /books/como-esta-o-inicio-depois-do-fim
 date: '2018-01-01'
-image: /assets/images/uploads/05-09.jpg
+image: /assets/images/uploads/_mg_4673-2-bx.jpg
 featured: 'Yes'
 ---
-![](/assets/images/uploads/_mg_4673-2-bx.jpg)
+![null](/assets/images/uploads/_mg_4673-2-bx.jpg)
 
 ![null](/assets/images/uploads/_mg_4674-bx.jpg)
 
