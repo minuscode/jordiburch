@@ -4,13 +4,19 @@ title: Jordi Burch
 path: /new/jordi-burch
 date: '2018-01-01'
 image: /assets/images/uploads/slider_3.jpg
-images: |-
-  ![null](/assets/images/uploads/05-03.jpg)
+images: >-
+  ![Furo - Janaina Torres Galeria](/assets/images/uploads/slider_3.jpg)
 
-  ![null](/assets/images/uploads/slider_3.jpg)
 
-  ![null](/assets/images/uploads/012-copy.jpg)
-description: As Durações do Rastro - Fundação Iberê Camargo
+  ![As Durações do Rastro - Fundação Iberê
+  Camargo](/assets/images/uploads/012-copy.jpg)
+
+
+
+
+  ![Como Está o Início Depois do Fim? - Centro Cultural de
+  Belém](/assets/images/uploads/05-02.jpg)
+description: Jordi Burch
 featured: 'Yes'
 ---
 
