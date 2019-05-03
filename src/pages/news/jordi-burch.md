@@ -1,6 +1,6 @@
 ---
 templateKey: new
-title: Jordi Burch
+title: As Durações do Rastro - Fundação Iberê Camargo
 path: /new/jordi-burch
 date: '2018-01-01'
 image: /assets/images/uploads/012-copy.jpg
