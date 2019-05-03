@@ -1,6 +1,6 @@
 ---
 templateKey: new
-title: Jodri Burch
+title: Furo - Janaina Torres Galeria
 path: /new/jordi-burch
 date: '2018-01-01'
 image: /assets/images/uploads/slider_3.jpg
