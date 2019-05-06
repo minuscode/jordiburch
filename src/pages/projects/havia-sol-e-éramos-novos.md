@@ -36,7 +36,7 @@ order: '2'
 
 ![null](/assets/images/uploads/02-015.jpg)
 
-![null](/assets/images/uploads/02-016.jpg)
+![null]()
 
 ![null](/assets/images/uploads/02-017.jpg)
 
