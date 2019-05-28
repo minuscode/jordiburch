@@ -44,8 +44,6 @@ order: '3'
 
 ![null](/assets/images/uploads/04-019.jpg)
 
-![null](/assets/images/uploads/04-020.jpg)
-
 ![null](/assets/images/uploads/04-021.jpg)
 
 ![null](/assets/images/uploads/04-022.jpg)
