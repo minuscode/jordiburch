@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import PostLink from "../components/post-link";
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 const Livros = ({
   data: {
@@ -24,7 +24,7 @@ return (
 export default Livros;
 
 export const pageQuery = graphql`
-  query IndexQueryLivros {
+  {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

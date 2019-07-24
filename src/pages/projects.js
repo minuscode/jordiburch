@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import ProjectLink from "../components/project-link";
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 const Projetos = ({
   data: {
@@ -24,7 +24,7 @@ const Projetos = ({
 export default Projetos;
 
 export const pageQuery = graphql`
-  query IndexQueryProjetos {
+  {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___order] }) {
       edges {
         node {

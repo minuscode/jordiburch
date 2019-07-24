@@ -20,7 +20,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query TextPostByPath($path: String!) {
+  query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

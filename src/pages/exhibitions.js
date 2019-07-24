@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import PostLink from "../components/post-link";
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 const Exposicoes = ({
   data: {
@@ -22,7 +22,7 @@ const Exposicoes = ({
 export default Exposicoes;
 
 export const pageQuery = graphql`
-  query IndexQueryExp {
+  {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
