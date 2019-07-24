@@ -14,8 +14,8 @@ const PostSlider = ({ post }) => (
           <Carousel autoPlay interval={10000} infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} dynamicHeight>
             {post.frontmatter.images != null && (post.frontmatter.images.split('(').join(')').split(')').map(img => (
               img.includes('/assets/images/uploads') &&
-              <div>
-                <img src={img} />
+              <div key={post.frontmatter.title}>
+                <img src={img} alt={post.frontmatter.title} />
               </div>
             ))).filter((element) => element !== false)}
           </Carousel>

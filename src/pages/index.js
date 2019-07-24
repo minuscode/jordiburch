@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from 'gatsby';
 import PostLink from "../components/post-link";
 import PostSlider from "../components/post-slider";
 import Link from 'gatsby-link';
@@ -8,7 +9,6 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  console.log(edges);
   const Posts = edges
     .filter(edge => edge.node.frontmatter.featured === 'Yes' && edge.node.frontmatter.path !== '/cv') // You can filter your posts based on some criteria
     .map(edge => <PostSlider key={edge.node.id} post={edge.node} />);

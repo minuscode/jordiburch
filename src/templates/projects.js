@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from 'gatsby';
 
 function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -6,7 +7,6 @@ function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   let storeHTML = '';
-  //console.log(html);
 
   if (typeof window !== `undefined`) {
     document.onkeydown = keyCheck;
@@ -16,7 +16,6 @@ function Template({
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
-    //console.log(imgTags.length);
 
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
@@ -57,8 +56,8 @@ function Template({
     }
 
     function keyCheck(e) {
-      var keyID = (window.event) ? event.keyCode : e.keyCode;
-      //console.log(keyID);
+      var keyID = (window.event) ? e.keyCode : e.keyCode;
+
       switch (keyID) {
         case 39:
           if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false){

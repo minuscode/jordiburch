@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from 'gatsby';
 
 function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -13,7 +14,6 @@ function Template({
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
     let imgTags = Array.from(divContainer.querySelectorAll('p > img'));
-    console.log(imgTags);
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
       for (let i = 0; i < imgTags.length; i++) {

@@ -3,8 +3,14 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
+    `gatsby-plugin-layout`,
     'gatsby-plugin-react-helmet', 
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      },
+    },
     'gatsby-plugin-netlify-cms', 
     {
       resolve: `gatsby-source-filesystem`,
