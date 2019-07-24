@@ -4,7 +4,7 @@ title: Como está o início depois do fim?
 path: /books/como-esta-o-inicio-depois-do-fim
 date: '2018-01-01'
 image: /assets/images/uploads/_mg_4673-2-bx.jpg
-featured: 'Yes'
+featured: 'No'
 ---
 ![null](/assets/images/uploads/_mg_4673-2-bx.jpg)
 
