@@ -5,12 +5,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-layout`,
     'gatsby-plugin-react-helmet', 
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        implementation: require("sass"),
-      },
-    },
+    `gatsby-plugin-sass`,
     'gatsby-plugin-netlify-cms', 
     {
       resolve: `gatsby-source-filesystem`,
