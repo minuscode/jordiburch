@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from 'gatsby';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -19,7 +20,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query TextPostByPath($path: String!) {
+  query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {

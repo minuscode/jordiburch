@@ -1,6 +1,7 @@
 import React from "react";
+import { graphql } from 'gatsby';
 import PostLink from "../components/post-link";
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 const Exposicoes = ({
   data: {
@@ -10,8 +11,6 @@ const Exposicoes = ({
   const Posts = edges
     .filter(edge => edge.node.frontmatter.path.includes("/exhibitions") && edge.node.frontmatter.path.split('/').length <= 3) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
-
-  { console.log(Posts) };
   return (
   <div>
     <h1 className="pageTitle">Exposições</h1>
@@ -23,7 +22,7 @@ const Exposicoes = ({
 export default Exposicoes;
 
 export const pageQuery = graphql`
-  query IndexQueryExp {
+  {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import { Carousel } from 'react-responsive-carousel';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import('react-responsive-carousel/lib/styles/carousel.min.css');
 
 
 const PostSlider = ({ post }) => (
@@ -14,8 +14,8 @@ const PostSlider = ({ post }) => (
           <Carousel autoPlay interval={10000} infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} dynamicHeight>
             {post.frontmatter.images != null && (post.frontmatter.images.split('(').join(')').split(')').map(img => (
               img.includes('/assets/images/uploads') &&
-              <div>
-                <img src={img} />
+              <div key={post.frontmatter.title}>
+                <img src={img} alt={post.frontmatter.title} />
               </div>
             ))).filter((element) => element !== false)}
           </Carousel>

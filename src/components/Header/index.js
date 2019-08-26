@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react"
+import { Link } from "gatsby"
 
 const Header = () => (
   <div  className="header" >
@@ -21,11 +21,13 @@ if (typeof window !== `undefined`) {
     if (document.readyState === 'complete') {
       let menuItem = Array.from(document.querySelectorAll('.menu-item'));
       let homeBtn = document.querySelector('.home-btn');
-      homeBtn.addEventListener('click', () => {
-        for (let i = 0; i < menuItem.length; i++) {
-          menuItem[i].classList.remove('active');
-        }
-      });
+      if(homeBtn) {
+        homeBtn.addEventListener('click', () => {
+          for (let i = 0; i < menuItem.length; i++) {
+            menuItem[i].classList.remove('active');
+          }
+        });
+      }
       for (let i = 0; i < menuItem.length; i++) {
         menuItem[i].addEventListener('click', () => { 
           for (let index = 0; index < menuItem.length; index++) {

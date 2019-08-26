@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import favicon from '../components/Favicon/favicon.png'
 
 import Header from '../components/Header'
-import "../styles/style.scss"
+import("../styles/style.scss")
 
 const TemplateWrapper = ({ children }) => (
   <div className="container">
@@ -25,8 +25,8 @@ const TemplateWrapper = ({ children }) => (
     <div
       className="wrapper"
     >
-      {children()}
-      <p className="footer">Jordi Burch - 2018</p>
+      {children}
+      <p className="footer">Jordi Burch - 2019</p>
       <p className="footer bot-space"><a href="mailto:mail@jordiburch.com">mail@jordiburch.com</a></p>
     </div>
   </div>
@@ -34,7 +34,7 @@ const TemplateWrapper = ({ children }) => (
 
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
 }
 
 export default TemplateWrapper
