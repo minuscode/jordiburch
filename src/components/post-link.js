@@ -13,7 +13,8 @@ const PostLink = ({ post }) => (
 
           <div className="text imagePostBox">
             <h1>{post.frontmatter.title}</h1>
-            {post.excerpt !== null && <div className="descriptionBox"><p>{post.excerpt}</p></div>}
+            {post.excerpt !== null && !post.excerpt.includes('null') && <div className="descriptionBox"><p>{post.excerpt}</p></div>}
+            {console.log(post.excerpt)}
           </div>
         </div>
 

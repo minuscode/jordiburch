@@ -10,8 +10,8 @@ function Template({
 
   if (typeof window !== `undefined`) {
     document.onkeydown = keyCheck;
-    let divRandom = document.createElement('div');
-    let divContainer = document.createElement('div');
+    let divRandom = document.createElement('div'),
+        divContainer = document.createElement('div');
     divContainer.className = "markdownContainer";
     divRandom.appendChild(divContainer);
     divContainer.innerHTML = data.markdownRemark.html;
@@ -19,41 +19,30 @@ function Template({
 
     if (imgTags.length !== 0) {
       divContainer.innerHTML = '';
+      let ilength = imgTags.length;
       for (let i = 0; i < imgTags.length; i++) {
         ((imgTags[i].alt === 'null') && (imgTags[i].alt = ''));
         divContainer.innerHTML = divContainer.innerHTML + `
-          <div class="markdownImage" class="hide" onload="this.classList.remove('hide')">
-            <a href="${'#' + i}" class='small-img'>
-              <div class="container">
-                  <div class="image">
-                    <img src="${imgTags[i].src}" alt="" class="hide" onload="this.classList.remove('hide')" />
-                  </div>
-
-                  <div class="text imagePostBox">
-                    <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
-                  </div>
-              </div>
-            </a>
-            <div class="lightbox" id="${i}"">
-              <a href='#_' class='link'>
-                <img src="${imgTags[i].src}" class="hide" onload="this.classList.remove('hide')" >
-                <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
-              </a>
-              <a href='#_' class='close'>
-                <img src="https://i.imgur.com/fkhylMC.png"/>
-              </a>
-              <a href="#${i + 1}" class="arrow" id="${i}">
+          <div class="markdownImage imagePost" id="${i}">
+            <div class="lightbox-post">
+              <a href="#${i + 1}" class="arrow">
                 <img src="https://i.imgur.com/o7Fiap8.png"/>
               </a>
-              <a href="#${i - 1}" class="arrow-invert" id="${i}">
+              <div class='link'>
+                <img src="${imgTags[i].src}" >
+                <div class="descriptionBox"><p>${imgTags[i].alt}</p></div>
+              </div>
+              <a href="#${i - 1}" class="arrow-invert">
                 <img src="https://i.imgur.com/o7Fiap8.png"/>
               </a>
             </div>
           </div>
         `;
+        ilength =- 1;
       }
       data.markdownRemark.html = divRandom.innerHTML;
     }
+
 
     function keyCheck(e) {
       var keyID = (window.event) ? e.keyCode : e.keyCode;
@@ -74,12 +63,6 @@ function Template({
             arrowsInvert[numIn].click();
           }
           break;
-
-        case 27:
-          if (window.location.href.includes('#') === true && window.location.href.includes('#_') === false && window.location.href.includes('#-1') === false) {
-            document.querySelector('.close').click();
-          }
-        break;
       }
     }
 

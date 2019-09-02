@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import favicon from '../components/Favicon/favicon.png'
-
 import Header from '../components/Header'
 import("../styles/style.scss")
 
