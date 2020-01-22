@@ -91,7 +91,7 @@
     }
 
     .markdownContainer {
-      height: 100vh;
+      min-height: 100vh;
       column-count: 2;
       column-gap: 60px;
 
@@ -328,6 +328,10 @@
 
     .link {
       position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
   }
