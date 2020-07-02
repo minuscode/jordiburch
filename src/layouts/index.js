@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => (
       className="wrapper"
     >
       {children}
-      <p className="footer">Jordi Burch - 2019</p>
+      <p className="footer">Jordi Burch - 2020</p>
       <p className="footer bot-space"><a href="mailto:mail@jordiburch.com">mail@jordiburch.com</a></p>
     </div>
   </div>
