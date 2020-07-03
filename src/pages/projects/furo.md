@@ -48,8 +48,6 @@ order: '4'
 
 ![null](/assets/images/uploads/06-013.jpg)
 
-![null](/assets/images/uploads/06-014.jpg)
-
 ![Exposição Furo - Janaina Torres Galeria. São Paulo 2019](/assets/images/uploads/06-016.jpg)
 
 ![null](/assets/images/uploads/06-017.jpg)
