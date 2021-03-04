@@ -1,7 +1,7 @@
 ---
 templateKey: projects
 title: há uma trança linda nessa sua dança
-path: /projects/
+path: /projects/há-uma-trança-linda-nessa-sua-dança
 date: '2018-01-01'
 image: /assets/images/uploads/07-02.jpg
 description: |-
