@@ -1,6 +1,6 @@
 ---
 templateKey: projects
-title: há uma trança linda nessa sua dança
+title: 'há uma trança linda nessa sua dança, Ondjaki           '
 path: /projects/há-uma-trança-linda-nessa-sua-dança
 date: '2018-01-01'
 image: /assets/images/uploads/07-02.jpg
