@@ -12,7 +12,7 @@ order: '2'
 
 ![null](/assets/images/uploads/02-01.jpg)
 
-![null](/assets/images/uploads/02-03.jpg)
+![null]()
 
 ![null](/assets/images/uploads/02-04.jpg)
 
