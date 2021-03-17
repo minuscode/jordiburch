@@ -22,7 +22,7 @@ description: >-
 featured: 'No'
 order: '4'
 ---
-![null](/assets/images/uploads/06-01.jpg)
+![null](/assets/images/uploads/06-001.jpg)
 
 ![null](/assets/images/uploads/06-002.jpg)
 
