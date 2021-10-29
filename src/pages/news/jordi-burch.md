@@ -10,7 +10,9 @@ images: >-
 
 
   ![como coisa real por fora, como coisa real por dentro - Galeria das
-  Salgadeiras](/assets/images/uploads/captura-de-tela-2021-10-29-às-14.40.39.png)
+  Salgadeiras](/assets/images/uploads/captura-de-tela-2021-10-29-às-14.40.39.png
+  "como coisa real por fora, como coisa real por dentro - Galeria das
+  Salgadeiras")
 
 
   ![As Durações do Rastro - Fundação Iberê
