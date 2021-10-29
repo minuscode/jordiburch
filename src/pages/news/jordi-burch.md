@@ -9,6 +9,10 @@ images: >-
   Janaina Torres Galeria")
 
 
+  ![como coisa real por fora, como coisa real por dentro - Galeria das
+  Salgadeiras](/assets/images/uploads/captura-de-tela-2021-10-29-às-14.40.39.png)
+
+
   ![As Durações do Rastro - Fundação Iberê
   Camargo](/assets/images/uploads/012-copy-copy.jpg "As Durações do Rastro -
   Fundação Iberê Camargo")
