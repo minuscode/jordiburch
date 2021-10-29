@@ -9,7 +9,8 @@ images: >-
 
 
   ![As Durações do Rastro - Fundação Iberê
-  Camargo](/assets/images/uploads/012-copy-copy.jpg)
+  Camargo](/assets/images/uploads/012-copy-copy.jpg "As Durações do Rastro -
+  Fundação Iberê Camargo")
 
 
   ![Como Está o Início Depois do Fim? - Centro Cultural de
