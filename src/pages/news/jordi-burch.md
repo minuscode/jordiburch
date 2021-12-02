@@ -23,6 +23,6 @@ images: >-
   ![Como Está o Início Depois do Fim? - Centro Cultural de
   Belém](/assets/images/uploads/_mg_3905-copy-copy.jpg)
 description: Jordi Burch
-featured: 'No'
+featured: 'Yes'
 ---
 
