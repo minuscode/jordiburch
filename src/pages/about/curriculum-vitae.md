@@ -12,55 +12,65 @@ Estudou fotografia no Ar.Co – Centro de Arte e Comunicação Visual, em Lisb
 
 Foi membro do colectivo Kameraphoto entre 2007 e 2014. 
 
-Entre as sua atividades mais recentes destacam-se as exposições _neighbourhood_ na Bienal de Arquitetura de Veneza e Centro Cultural de Belém(Lisboa), as _durações do rastro_ na Fundação Iberê Camargo e _furo_, Janaina Tores Galeria
+Entre as sua atividades mais recentes destacam-se as exposições _neighbourhood_ na Bienal de Arquitetura de Veneza e Centro Cultural de Belém(Lisboa), as _durações do rastro_ na Fundação Iberê Camargo (Porto Alegre) _furo_, Janaina Torres Galeria (São Paulo) e _como está o início depois do fim? na Casa da Arquitetura_ (Porto)
 
 Em 2008 passa a viver em São Paulo.
 
 ## **Exposições individuais:**
 
-**2018** “Furo” curadoria de Marta Mestre, Janaina Torres Galeria. São Paulo, Brasil
+**2022** "Como está o início depois do fim?" Casa da Arquitectura no Porto, Portugal
 
-“As Durações do Rastro” curadoria de Veronica Stigger. Fundação Iberê Camargo, Porto Alegre, Brasil.
+**2022** "Para pendurar a palavra gravidade" em parceria com o escritor Ondjaki no Instituto Camões em Luanda, Angola
 
-**2015** “Havia sol e éramos novos”, curadoria Isabella Lenzi. Virada cultural, São Paulo - Brasil
+**2021** "Como coisa real por fora, como coisa real por dentro" Galeria das Salgadeiras em Lisboa, Portugal
 
-**2014** “Se não me engano faz Angola”, Galeria Plataforma Revólver, Lisboa - Portugal
+**2018** “Furo” curadoria de Marta Mestre, Janaina Torres Galeria em São Paulo, Brasil
 
-**2013** “O Rosto da Paisagem” curadoria Emanuel Araújo, Museu AfroBrasil, São Paulo - Brasil
+“As Durações do Rastro” curadoria de Veronica Stigger. Fundação Iberê Camargo em Porto Alegre, Brasil.
 
-**2011** “Processo”, K Galeria, Lisboa - Portugal
+**2015** “Havia sol e éramos novos”, curadoria Isabella Lenzi. Virada cultural em São Paulo, Brasil
 
-**2010** “O Rosto da Paisagem”, Centro Cultural de Luanda, Luanda - Angola
+**2014** “Se não me engano faz Angola”, Galeria Plataforma Revólver em Lisboa, Portugal
 
-**2009** "The cure for love”, P4 Gallery, Lisboa – Portugal
+**2013** “O Rosto da Paisagem” curadoria Emanuel Araújo, Museu AfroBrasil em São Paulo - Brasil
 
-**2008** “The cure for love”, Galeria Nara Roesler, São Paulo - Brasil
+**2011** “Processo”, K Galeria em Lisboa, Portugal
+
+**2010** “O Rosto da Paisagem”, Centro Cultural de Luanda em Luanda, Angola
+
+**2009** "The cure for love”, P4 Gallery em Lisboa, Portugal
+
+**2008** “The cure for love”, Galeria Nara Roesler em São Paulo, Brasil
 
 ## **Exposições coletivas:**
 
-**2018** “Caixa Preta” Curadoria de Bernaro José de Souza, Eduardo Sterzi, Fernanda Brenner e Veronica Stiger. Fundação Iberê Camargo, Porto Alegre, Brasil
+**2021** "Um Brado Retumbante" curadoria de Henrique Menezes, Galeria Bolsa de Arte em São Pulo, Brasil
 
-**2017** “Neighbourhood” com o trabalho “Como Está o início Depois do Fim?” Centro Cultural de Belém, Lisboa - Portugal                                                           ​                     
+**2019 "**Pequenos Vestígios de Melancolia" curadoria de Calu Gonçalves, Funarte em São Paulo, Brasil 
 
-**2016** “Neighbourhood” curadoria Nuno Grande e Roberto Cremascolli. Bienal de Arquitetura de Veneza, Veneza.
+**2018** “Caixa Preta” curadoria de Bernaro José de Souza, Eduardo Sterzi, Fernanda Brenner e Veronica Stiger. Fundação Iberê Camargo em Porto Alegre, Brasil
 
-Projeção de “As durações do rastro”, Arena ZUM Instituto Moreira Salles, Festival Valongo. Curadoria de Thyago Nogueira. Santos - Brasil
+**2017** “Neighbourhood” com o trabalho “Como Está o início Depois do Fim?” Centro Cultural de Belém em Lisboa - Portugal                                                           ​                     
 
-Fotos contam fatos com o livro “Havia Sol e Éramos Novos” curadoria Denise Gadelha Galeria Vermelho. São Paulo - Brasil                                                                                                             
+**2016** “Neighbourhood” curadoria Nuno Grande e Roberto Cremascolli. Bienal de Arquitetura de Veneza em Veneza.
 
-**2013** “Deus não surfa,” curadoria Marta Mestre. Rio de Janeiro Art Fair (ArtRIO). Rio de Janeiro – Brasil                                                                                                                      
+Projeção de “As durações do rastro”, Arena ZUM Instituto Moreira Salles, Festival Valongo. Curadoria de Thyago Nogueira em Santos, Brasil
 
-**2012** “Juventude” Encontros da Imagem, Braga – Portugal 
+Fotos contam fatos com o livro “Havia Sol e Éramos Novos” curadoria Denise Gadelha Galeria Vermelho em São Paulo, Brasil                                                                                                             
 
-Noites brancas, Les Reencontres d'Arles Festival, Arles - França
+**2013** “Deus não Surfa,” curadoria Marta Mestre, Rio de Janeiro Art Fair (ArtRIO) no Rio de Janeiro, Brasil                                                                                                                      
 
-**2011** “Um Diário da República”, Fundação EDP, Porto - Portugal; Photo España,Cuenca - Espanha
+**2012** “Juventude” Encontros da Imagem em Braga, Portugal 
 
-“Danos colaterais”, Festival Encontros da Imagem, Braga - Portugal
+Noites Brancas, Les Reencontres d'Arles Festival em Arles, França
 
-**2009** “A State of Affairs”, Paraty em Foco, Paraty - Brasil; Galeria Plataforma Revólver, Lisboa – Portugal                                                                                                                             “450”, Fundação Eugénio de Almeida, Évora – Portugal
+**2011** “Um Diário da República”, Fundação EDP no Porto - Portugal; Photo España,Cuenca - Espanha
 
-“People”, Fundação EDP, Lisboa - Portugal
+“Danos Colaterais”, Festival Encontros da Imagem em Braga, Portugal
+
+**2009** “A State of Affairs”, Paraty em Foco, Paraty - Brasil; Galeria Plataforma Revólver, Lisboa – Portugal                                                                                                                             “450”, Fundação Eugénio de Almeida em Évora, Portugal
+
+“People”, Fundação EDP em Lisboa, Portugal
 
 ## **Residências:**
 
