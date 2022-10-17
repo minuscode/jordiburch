@@ -142,6 +142,4 @@ description: >-
 featured: 'Yes'
 order: 0
 ---
-https://www.youtube.com/watch?v=gCJqKbmrzHw
-
 ![](/assets/images/uploads/palmeira.jpg)
