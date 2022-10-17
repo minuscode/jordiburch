@@ -143,3 +143,9 @@ featured: 'Yes'
 order: 0
 ---
 ![](/assets/images/uploads/palmeira.jpg)
+
+![](/assets/images/uploads/paisagem_1_50x40.jpg)
+
+![](/assets/images/uploads/paisagem_3_50x40.jpg)
+
+![](/assets/images/uploads/paisagem_2_50x40.jpg)
