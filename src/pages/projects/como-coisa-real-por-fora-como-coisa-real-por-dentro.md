@@ -144,8 +144,6 @@ order: '0'
 ---
 ![](/assets/images/uploads/gravuras.jpg)
 
-![](/assets/images/uploads/gravura_mar.jpg)
+![](/assets/images/uploads/img_6779.jpg)
 
-![](/assets/images/uploads/gravura_areia.jpg)
-
-![](/assets/images/uploads/gravura_palmeira.jpg)
+![]()
