@@ -142,7 +142,7 @@ description: >-
 featured: 'Yes'
 order: '0'
 ---
-![](/assets/images/uploads/gravuras.jpg)
+
 
 ![](/assets/images/uploads/img_6779.jpg)
 
