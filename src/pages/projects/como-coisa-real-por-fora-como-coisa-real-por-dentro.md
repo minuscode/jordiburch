@@ -150,4 +150,4 @@ order: '0'
 
 ![](/assets/images/uploads/img_6779.jpg)
 
-![](/assets/images/uploads/img_7033-copiar.jpg)
+![](/assets/images/uploads/img_6787.jpg)
