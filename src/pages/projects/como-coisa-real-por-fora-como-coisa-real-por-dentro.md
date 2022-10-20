@@ -154,6 +154,6 @@ order: '0'
 
 ![](/assets/images/uploads/img_7033-copiar.jpg)
 
-![https://www.youtube.com/watch?v=gCJqKbmrzHw]()
+![]()
 
 https://www.youtube.com/watch?v=gCJqKbmrzHw
