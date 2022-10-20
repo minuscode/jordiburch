@@ -154,7 +154,7 @@ order: '0'
 
 ![](/assets/images/uploads/img_7033-copiar.jpg)
 
-![](/assets/images/uploads/img_7120-copiar.jpg)
+![](/assets/images/uploads/img_7119-copiar.jpg)
 
 ![](/assets/images/uploads/img_7120-copiar.jpg)
 
