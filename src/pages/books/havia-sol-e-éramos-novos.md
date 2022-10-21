@@ -11,3 +11,5 @@ featured: 'No'
 ![](/assets/images/uploads/02.jpg)
 
 ![](/assets/images/uploads/03.jpg)
+
+![](/assets/images/uploads/08.jpg)
