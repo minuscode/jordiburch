@@ -50,8 +50,6 @@ description: >-
   Ondjaki
 
 
-
-
   O texto acima foi escrito pelo ondjaki, em 2010, um ano depois da nossa viagem
   em direção ao Namíbe, e que viria a fazer parte do catálogo da exposição
   que então inaugurávamos no Centro Cultural Português, em Luanda.
@@ -69,8 +67,8 @@ description: >-
 
 
   Tínhamos também aquela sensação que antecede um encontro com o
-  desconhecido, que pode ser pessoa, mas também pode ser cachoeira, pode até
-  ser as duas coisas juntas (a pessoa ser o cenário da cachoeira, pode? )
+  desconhecido, que pode ser pessoa, mas também pode ser cachoeira, podem até
+  ser as duas coisas juntas (a pessoa ser a paisagem da cachoeira, pode? )
   ....tínhamos tudo isso, mas convenhamos, não nos conhecíamos: e se corresse
   mal?
 
