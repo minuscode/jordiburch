@@ -2,7 +2,7 @@
 templateKey: projects
 title: 'Como coisa real por fora, como coisa real por dentro'
 path: '/projects/Como coisa real por fora, como coisa real por dentro'
-date: '2018-01-01'
+date: 2022-10-14T23:00:00.000Z
 image: /assets/images/uploads/palmeira.jpg
 description: >-
   Como coisa real por fora, Como coisa real por dentro. O que quer dizer uma
