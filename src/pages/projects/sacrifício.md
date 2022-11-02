@@ -2,7 +2,7 @@
 templateKey: projects
 title: Sacrifício
 path: /projects/sacrificio
-date: '2018-01-01'
+date: 2018-06-10T23:00:00.000Z
 image: /assets/images/uploads/03-01.jpg
 description: >-
   Em Sacrifício, há uma procura pela identificação de gestos que, em sua duração
