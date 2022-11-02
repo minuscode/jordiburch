@@ -2,7 +2,7 @@
 templateKey: projects
 title: Furo
 path: /projects/furo
-date: '2018-01-01'
+date: 2019-03-08T00:00:00.000Z
 image: /assets/images/uploads/06-004.jpg
 description: >-
   "Em Furo, as imagens existem enquanto manifestação — e projeção — da linguagem
