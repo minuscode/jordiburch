@@ -25,13 +25,13 @@ export default Projetos;
 
 export const pageQuery = graphql`
   {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___order] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date
             path
             title
             image

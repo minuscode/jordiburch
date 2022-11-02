@@ -37,7 +37,7 @@ collections:
       - { name: "templateKey", label: "Template Key", widget: "hidden", default: "projects"}
       - { name: title, label: Title }
       - { name: "path", label: "Path Name", default: "/projects/" }
-      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD", default: "2018-01-01"}
+      - { label: "Publish Date", name: "date", widget: 'datetime' }
       - { name: image, label: Cover Image, widget: image }
       - { name: "body", label: "Body", widget: "markdown"}
       - { name: "description", label: "Description", widget: "markdown"}
