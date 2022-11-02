@@ -36,7 +36,6 @@ export const pageQuery = graphql`
             title
             image
             templateKey
-            order
           }
         }
       }
